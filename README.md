@@ -12,10 +12,10 @@
 ##  Add the dependency
 ```groovy
 dependencies {
-      implementation 'com.github.dvinfosys:Android-Widgets:1.3'
+      implementation 'com.github.dvinfosys:CustomWidgets:$Latest_Release'
 }
 ```
-Check out [Android-Widgets releases](https://github.com/dvinfosys/Android-Widgets/releases) to see more unstable versions.
+Check out [CustomWidgets releases](https://github.com/dvinfosys/CustomWidgets/releases) to see more unstable versions.
 	
 you could customize following UI controls in your Android application
 
