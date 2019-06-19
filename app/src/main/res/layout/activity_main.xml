@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.dvinfosys.widgets.TextView.HeadingTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="heading TextView" />
+
+        <com.dvinfosys.widgets.EditText.NormalEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:hint="Enter your name"
+            android:padding="8dp" />
+
+        <com.dvinfosys.widgets.Button.NormalButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Normal Button"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.RadioButton.NormalRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Normal RadioButton" />
+
+        <com.dvinfosys.widgets.CheckBox.NormalCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Normal CheckBox" />
+
+        <com.dvinfosys.widgets.Switch.NormalSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="Normal Switch" />
+
+        <com.dvinfosys.widgets.ToggleButton.NormalToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Normal Toggle Button"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.ImageView.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:dv_border_color="#ffcc00"
+            app:dv_border_width="2dp" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            app:sb_indicator_color="@color/color_gray"
+            app:sb_indicator_text_color="@color/colorAccent"
+            app:sb_indicator_text_size="18sp"
+            app:sb_max="5"
+            app:sb_min="-6"
+            app:sb_only_thumb_draggable="false"
+            app:sb_progress="0"
+            app:sb_seek_smoothly="true"
+            app:sb_show_indicator="rounded_rectangle"
+            app:sb_show_tick_marks_type="oval"
+            app:sb_show_tick_texts="true"
+            app:sb_thumb_color="@color/color_blue"
+            app:sb_thumb_size="20dp"
+            app:sb_tick_marks_color="@color/color_gray"
+            app:sb_tick_marks_size="13dp"
+            app:sb_tick_texts_color="@color/color_blue"
+            app:sb_tick_texts_size="15sp"
+            app:sb_ticks_count="5"
+            app:sb_track_background_color="@color/color_gray"
+            app:sb_track_background_size="2dp"
+            app:sb_track_progress_color="@color/color_blue"
+            app:sb_track_progress_size="4dp" />
+
+        <com.dvinfosys.widgets.TextView.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Custom Text with Font"
+            app:font_name="Smoothy.otf" />
+
+        <com.dvinfosys.widgets.Button.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Custom Button"
+            app:button_font="Smoothy.otf" />
+
+    </LinearLayout>
+</ScrollView>

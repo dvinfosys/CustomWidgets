@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="dv_border_width" format="dimension" />
+        <attr name="dv_border_color" format="color" />
+        <attr name="dv_border_overlay" format="boolean" />
+        <attr name="dv_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSeekBar">
+        //seekBar
+        <attr name="sb_max" format="float" />
+        <attr name="sb_min" format="float" />
+        <attr name="sb_progress" format="float" />
+        <attr name="sb_progress_value_float" format="boolean" />
+        <attr name="sb_seek_smoothly" format="boolean" />
+        <attr name="sb_r2l" format="boolean" />
+        <attr name="sb_ticks_count" format="integer" />
+        <attr name="sb_user_seekable" format="boolean" />
+        <attr name="sb_clear_default_padding" format="boolean" />
+        <attr name="sb_only_thumb_draggable" format="boolean" />
+        //indicator
+        <attr name="sb_show_indicator">
+            <enum name="none" value="0" />
+            <enum name="circular_bubble" value="1" />
+            <enum name="rounded_rectangle" value="2" />
+            <enum name="rectangle" value="3" />
+            <enum name="custom" value="4" />
+        </attr>
+        <attr name="sb_indicator_color" format="color|reference" />
+        <attr name="sb_indicator_text_color" format="color|reference" />
+        <attr name="sb_indicator_text_size" format="dimension|reference" />
+        <attr name="sb_indicator_content_layout" format="reference" />
+        <attr name="sb_indicator_top_content_layout" format="reference" />
+        //track
+        <attr name="sb_track_background_size" format="dimension|reference" />
+        <attr name="sb_track_background_color" format="color|reference" />
+        <attr name="sb_track_progress_size" format="dimension|reference" />
+        <attr name="sb_track_progress_color" format="color|reference" />
+        <attr name="sb_track_rounded_corners" format="boolean" />
+        //thumb text
+        <attr name="sb_thumb_text_color" format="color|reference" />
+        <attr name="sb_show_thumb_text" format="boolean" />
+        //thumb
+        <attr name="sb_thumb_size" format="dimension|reference" />
+        <attr name="sb_thumb_color" format="color|reference" />
+        <attr name="sb_thumb_drawable" format="reference" />
+        <attr name="sb_thumb_adjust_auto" format="boolean" />
+        //tickMarks
+        <attr name="sb_tick_marks_color" format="color|reference" />
+        <attr name="sb_tick_marks_size" format="dimension|reference" />
+        <attr name="sb_tick_marks_drawable" format="reference" />
+        <attr name="sb_tick_marks_ends_hide" format="boolean" />
+        <attr name="sb_tick_marks_swept_hide" format="boolean" />
+        <attr name="sb_show_tick_marks_type">
+            <enum name="none" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="square" value="2" />
+            <enum name="divider" value="3" />
+        </attr>
+        //tickTexts
+        <attr name="sb_show_tick_texts" format="boolean" />
+        <attr name="sb_tick_texts_color" format="reference|color" />
+        <attr name="sb_tick_texts_size" format="dimension|reference" />
+        <attr name="sb_tick_texts_array" format="reference" />
+        <attr name="sb_tick_texts_typeface">
+            <enum name="normal" value="0" />
+            <enum name="monospace" value="1" />
+            <enum name="sans" value="2" />
+            <enum name="serif" value="3" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomTextView">
+        <attr name="font_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomButton">
+        <attr name="button_font" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="edittext_font" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCheckBox">
+        <attr name="checkbox_font" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomRadioButton">
+        <attr name="radiobutton_font" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomSwitch">
+        <attr name="switch_font" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomToggleButton">
+        <attr name="togglebutton_font" format="string"/>
+    </declare-styleable>
+</resources>
