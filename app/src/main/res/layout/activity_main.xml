@@ -115,5 +115,10 @@
             android:text="Custom Button"
             app:button_font="Smoothy.otf" />
 
+        <com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard
+            android:layout_width="match_parent"
+            android:id="@+id/vp_videoplayer"
+            android:layout_height="200dp"/>
+
     </LinearLayout>
 </ScrollView>

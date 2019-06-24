@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Widgets</string>
+    <string name="not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="not_wifi_confirm">Resume</string>
+    <string name="not_wifi_cancel">Stop play</string>
+    <string name="no_url">No url</string>
+    <string name="replay">Replay</string>
 </resources>
