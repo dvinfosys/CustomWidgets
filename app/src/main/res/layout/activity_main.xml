@@ -116,9 +116,76 @@
             app:button_font="Smoothy.otf" />
 
         <com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard
-            android:layout_width="match_parent"
             android:id="@+id/vp_videoplayer"
-            android:layout_height="200dp"/>
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <Button
+                android:id="@+id/button_error_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Error ToastView"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_success_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Success ToastView"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_info_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info ToastView"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_info_toast_with_formatting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info ToastView (With Formatting)"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_warning_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warning ToastView"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_normal_toast_wo_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal ToastView (without icon)"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_normal_toast_w_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal ToastView With Icon"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_custom_config"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom Configuration"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>

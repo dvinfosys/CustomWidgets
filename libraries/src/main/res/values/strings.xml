@@ -5,4 +5,5 @@
     <string name="not_wifi_cancel">Stop play</string>
     <string name="no_url">No url</string>
     <string name="replay">Replay</string>
+    <string name="toast_message">ToastView Message</string>
 </resources>
