@@ -98,4 +98,9 @@
     <declare-styleable name="CustomToggleButton">
         <attr name="togglebutton_font" format="string"/>
     </declare-styleable>
+
+    <declare-styleable name="GradientTextView">
+        <attr name="gradientStart"/>
+        <attr name="gradientEnd"/>
+    </declare-styleable>
 </resources>

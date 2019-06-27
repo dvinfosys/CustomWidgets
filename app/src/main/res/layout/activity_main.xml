@@ -115,6 +115,15 @@
             android:text="Custom Button"
             app:button_font="Smoothy.otf" />
 
+        <com.dvinfosys.widgets.TextView.GradientTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gradient TextView"
+            android:textSize="18dp"
+            android:gravity="center"
+            app:gradientEnd="#6673E7"
+            app:gradientStart="#FF0000" />
+
         <com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard
             android:id="@+id/vp_videoplayer"
             android:layout_width="match_parent"
