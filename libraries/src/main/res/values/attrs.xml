@@ -70,37 +70,42 @@
             <enum name="serif" value="3" />
         </attr>
     </declare-styleable>
-    
+
     <declare-styleable name="CustomTextView">
-        <attr name="font_name" format="string"/>
+        <attr name="font_name" format="string" />
     </declare-styleable>
 
     <declare-styleable name="CustomButton">
-        <attr name="button_font" format="string"/>
+        <attr name="button_font" format="string" />
     </declare-styleable>
 
     <declare-styleable name="CustomEditText">
-        <attr name="edittext_font" format="string"/>
+        <attr name="edittext_font" format="string" />
     </declare-styleable>
 
     <declare-styleable name="CustomCheckBox">
-        <attr name="checkbox_font" format="string"/>
+        <attr name="checkbox_font" format="string" />
     </declare-styleable>
 
     <declare-styleable name="CustomRadioButton">
-        <attr name="radiobutton_font" format="string"/>
+        <attr name="radiobutton_font" format="string" />
     </declare-styleable>
 
     <declare-styleable name="CustomSwitch">
-        <attr name="switch_font" format="string"/>
+        <attr name="switch_font" format="string" />
     </declare-styleable>
 
     <declare-styleable name="CustomToggleButton">
-        <attr name="togglebutton_font" format="string"/>
+        <attr name="togglebutton_font" format="string" />
     </declare-styleable>
 
     <declare-styleable name="GradientTextView">
-        <attr name="gradientStart"/>
-        <attr name="gradientEnd"/>
+        <attr name="gradientStart" format="color" />
+        <attr name="gradientEnd" format="color" />
+    </declare-styleable>
+    <declare-styleable name="GradientBoldTextView">
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+
     </declare-styleable>
 </resources>

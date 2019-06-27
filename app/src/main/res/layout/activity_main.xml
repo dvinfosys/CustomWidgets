@@ -118,11 +118,20 @@
         <com.dvinfosys.widgets.TextView.GradientTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Gradient TextView"
             android:textSize="18dp"
-            android:gravity="center"
             app:gradientEnd="#6673E7"
             app:gradientStart="#FF0000" />
+
+        <com.dvinfosys.widgets.TextView.GradientBoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Gradient Bold TextView"
+            android:textSize="18dp"
+            app:endColor="@color/colorPrimaryDark"
+            app:startColor="@color/colorAccent" />
 
         <com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard
             android:id="@+id/vp_videoplayer"
