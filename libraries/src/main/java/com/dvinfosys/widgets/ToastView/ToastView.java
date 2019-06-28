@@ -310,7 +310,6 @@ public class ToastView {
                 lastToast.cancel();
             lastToast = currentToast;
         }
-
         return currentToast;
     }
 
@@ -331,7 +330,7 @@ public class ToastView {
 
         public static void reset() {
             ToastView.currentTypeface = LOADED_TOAST_TYPEFACE;
-            ToastView.textSize = 16;
+            ToastView.textSize = 12;
             ToastView.tintIcon = true;
             ToastView.allowQueue = true;
         }
