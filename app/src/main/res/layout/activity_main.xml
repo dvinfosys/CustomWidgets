@@ -133,6 +133,14 @@
             app:endColor="@color/colorPrimaryDark"
             app:startColor="@color/colorAccent" />
 
+        <com.dvinfosys.widgets.TextView.MediumTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="MediumTextView" />
+
+
         <com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard
             android:id="@+id/vp_videoplayer"
             android:layout_width="match_parent"
