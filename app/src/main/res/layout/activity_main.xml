@@ -140,6 +140,16 @@
             android:padding="8dp"
             android:text="MediumTextView" />
 
+        <com.dvinfosys.widgets.ImageView.RoundedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/demo_image"
+            app:borderColor="@color/color_blue"
+            app:borderWidth="1dp"
+            app:isSquare="true"
+            app:radius="6dp" />
+
 
         <com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard
             android:id="@+id/vp_videoplayer"

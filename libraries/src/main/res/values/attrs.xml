@@ -108,4 +108,13 @@
         <attr name="endColor" format="color" />
 
     </declare-styleable>
+
+    <declare-styleable name="ShaderImageView">
+        <attr name="isSquare" format="boolean"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="borderAlpha" format="float"/>
+        <attr name="foreground" format="integer|reference" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
 </resources>
