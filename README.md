@@ -27,6 +27,7 @@ you could customize following UI controls in your Android application
 * NormalSwitch
 * NormalToggleButton
 * CircleImageView
+* RoundedImageView
 
 Usage
 -----
@@ -109,6 +110,18 @@ CircleImageView
                 android:src="@mipmap/ic_launcher"
                 app:dv_border_color="#949494"
                 app:dv_border_width="2dp" />
+```
+RoundedImageView
+```xml
+<com.dvinfosys.widgets.ImageView.RoundedImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/demo_image"
+            app:borderColor="@color/color_blue"
+            app:borderWidth="1dp"
+            app:isSquare="true"
+            app:radius="6dp" />
 ```
 
 NOTE
