@@ -12,4 +12,9 @@
     <string name="custom">Custom</string>
     <string name="select">Select</string>
     <string name="transparency">Transparency</string>
+
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="minus_description">Decrement button</string>
+    <string name="plus_description">Increment button</string>
 </resources>

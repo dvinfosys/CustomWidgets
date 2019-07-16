@@ -149,9 +149,25 @@
             android:text="Color Picker"
             android:textAllCaps="false" />
 
+        <com.dvinfosys.widgets.NumberCounter.Counter
+            android:id="@+id/number_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            app:displayAsInteger="true"
+            app:initialValue="20"
+            app:maxValue="100"
+            app:minValue="1"
+            app:minusButtonColor="#D50000"
+            app:plusButtonColor="#4CAF50"
+            app:stepValue="1"
+            app:textColor="@color/color_blue"
+            app:textSize="12dp" />
+
         <com.dvinfosys.widgets.ImageView.RoundedImageView
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="100dp"
             android:layout_margin="8dp"
             android:src="@drawable/demo_image"
             app:borderColor="@color/color_blue"

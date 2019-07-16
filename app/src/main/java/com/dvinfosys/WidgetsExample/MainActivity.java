@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.dvinfosys.widgets.Button.NormalButton;
 import com.dvinfosys.widgets.ColorPicker.ColorPickerDialog;
 import com.dvinfosys.widgets.ColorPicker.ColorPickerDialogListener;
+import com.dvinfosys.widgets.NumberCounter.Counter;
 import com.dvinfosys.widgets.ToastView.ToastView;
 import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
 import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
     private Context context;
     private Button btnErrorToastView, btnSuccessToastView, btnInfoToastView, btnWarringToastView;
     private NormalButton btnColorPicker;
+    private Counter numberCounter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +43,10 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
         btnInfoToastView = findViewById(R.id.button_info_toast);
         btnWarringToastView = findViewById(R.id.button_warning_toast);
         btnColorPicker = findViewById(R.id.btn_color_picker);
+        numberCounter = findViewById(R.id.number_counter);
+
+        numberCounter.setPlusButtonColor(Color.parseColor("#4CAF50"));
+        numberCounter.setMinusButtonColor(Color.parseColor("#D50000"));
 
         VPVideoPlayerStandard videoPlayerStandard = findViewById(R.id.vp_videoplayer);
         videoPlayerStandard.setUp("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", VPVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "Elephant Dream");
@@ -109,12 +115,11 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
             public void onClick(View v) {
                 ColorPickerDialog.newBuilder()
                         .setDialogType(ColorPickerDialog.TYPE_CUSTOM)
-                        .setAllowPresets(false)
+                        .setAllowPresets(true)
                         .setDialogId(DIALOG_ID)
                         .setColor(Color.BLACK)
                         .setShowAlphaSlider(true)
                         .show(MainActivity.this);
-
             }
         });
     }

@@ -8,4 +8,6 @@
     <color name="normalColor">#353A3E</color>
     <color name="colorStart">#520000</color>
     <color name="colorEnd">#F7C0C0</color>
+
+    <color name="colorDefault">#03A9F4</color>
 </resources>
