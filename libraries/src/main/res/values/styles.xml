@@ -13,4 +13,9 @@
         <item name="android:windowExitAnimation">@android:anim/fade_out</item>
     </style>
 
+    <style name="colorPickerViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">315dp</item>
+    </style>
+
 </resources>

@@ -140,6 +140,15 @@
             android:padding="8dp"
             android:text="MediumTextView" />
 
+        <com.dvinfosys.widgets.Button.NormalButton
+            android:id="@+id/btn_color_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Color Picker"
+            android:textAllCaps="false" />
+
         <com.dvinfosys.widgets.ImageView.RoundedImageView
             android:layout_width="wrap_content"
             android:layout_height="200dp"

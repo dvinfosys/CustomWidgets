@@ -1,4 +1,13 @@
 <resources>
     <dimen name="vp_start_button_w_h_normal">45dp</dimen>
     <dimen name="vp_start_button_w_h_fullscreen">62dp</dimen>
+
+    <dimen name="required_padding">6dp</dimen>
+    <dimen name="dialog_preview_width">66dp</dimen>
+    <dimen name="dialog_preview_height">34dp</dimen>
+    <dimen name="column_width">58dp</dimen>
+    <dimen name="item_size">50dp</dimen>
+    <dimen name="item_horizontal_padding">8dp</dimen>
+    <dimen name="color_preference_normal">28dp</dimen>
+    <dimen name="color_preference_large">40dp</dimen>
 </resources>

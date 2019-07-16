@@ -1,6 +1,7 @@
 package com.dvinfosys.WidgetsExample;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -9,29 +10,37 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import com.dvinfosys.widgets.Button.NormalButton;
+import com.dvinfosys.widgets.ColorPicker.ColorPickerDialog;
+import com.dvinfosys.widgets.ColorPicker.ColorPickerDialogListener;
 import com.dvinfosys.widgets.ToastView.ToastView;
 import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
 import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard;
 
 import static android.graphics.Typeface.BOLD_ITALIC;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ColorPickerDialogListener {
 
+    private static final int DIALOG_ID = 0;
     private Context context;
     private Button btnErrorToastView, btnSuccessToastView, btnInfoToastView, btnWarringToastView;
+    private NormalButton btnColorPicker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        context=this;
+        context = this;
         btnErrorToastView = findViewById(R.id.button_error_toast);
         btnSuccessToastView = findViewById(R.id.button_success_toast);
         btnInfoToastView = findViewById(R.id.button_info_toast);
         btnWarringToastView = findViewById(R.id.button_warning_toast);
+        btnColorPicker = findViewById(R.id.btn_color_picker);
 
         VPVideoPlayerStandard videoPlayerStandard = findViewById(R.id.vp_videoplayer);
         videoPlayerStandard.setUp("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", VPVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "Elephant Dream");
@@ -40,26 +49,26 @@ public class MainActivity extends AppCompatActivity {
         btnErrorToastView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ToastView.error(context,"This is error ToastView",ToastView.LENGTH_SHORT).show();
+                ToastView.error(context, "This is error ToastView", ToastView.LENGTH_SHORT).show();
             }
         });
         btnWarringToastView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ToastView.warning(context,"This is warring ToastView",ToastView.LENGTH_SHORT).show();
+                ToastView.warning(context, "This is warring ToastView", ToastView.LENGTH_SHORT).show();
             }
         });
         btnInfoToastView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ToastView.info(context,"This is info ToastView",ToastView.LENGTH_SHORT).show();
+                ToastView.info(context, "This is info ToastView", ToastView.LENGTH_SHORT).show();
             }
         });
 
         btnSuccessToastView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ToastView.success(context,"This is success ToastView",ToastView.LENGTH_SHORT).show();
+                ToastView.success(context, "This is success ToastView", ToastView.LENGTH_SHORT).show();
             }
         });
 
@@ -94,6 +103,20 @@ public class MainActivity extends AppCompatActivity {
                 ToastView.Config.reset(); // Use this if you want to use the configuration above only once
             }
         });
+
+        btnColorPicker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ColorPickerDialog.newBuilder()
+                        .setDialogType(ColorPickerDialog.TYPE_CUSTOM)
+                        .setAllowPresets(false)
+                        .setDialogId(DIALOG_ID)
+                        .setColor(Color.BLACK)
+                        .setShowAlphaSlider(true)
+                        .show(MainActivity.this);
+
+            }
+        });
     }
 
     private CharSequence getFormattedMessage() {
@@ -119,5 +142,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         VPVideoPlayer.releaseAllVideos();
+    }
+
+    @Override
+    public void onColorSelected(int dialogId, int color) {
+        switch (dialogId) {
+            case DIALOG_ID:
+                Toast.makeText(MainActivity.this, "Selected Color: #" + Integer.toHexString(color), Toast.LENGTH_SHORT).show();
+                break;
+        }
+    }
+
+    @Override
+    public void onDialogDismissed(int dialogId) {
+        Log.d("ColorPicker", "onDialogDismissed() called with: dialogId = [" + dialogId + "]");
     }
 }

@@ -12,6 +12,7 @@
         <activity
             android:name="com.dvinfosys.WidgetsExample.MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
