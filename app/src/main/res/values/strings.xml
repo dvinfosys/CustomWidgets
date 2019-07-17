@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Widgets</string>
+    <string name="app_name">Custom Widgets</string>
     <string name="custom_message">Custom Message ToastView</string>
 </resources>

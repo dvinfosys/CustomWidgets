@@ -149,6 +149,27 @@
             android:text="Color Picker"
             android:textAllCaps="false" />
 
+        <com.dvinfosys.widgets.CountdownView.CountdownView
+            android:id="@+id/countdown_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:isHideTimeBackground="false"
+            app:isShowDay="false"
+            app:isShowHour="false"
+            app:isShowMillisecond="true"
+            app:isShowMinute="true"
+            app:isShowSecond="true"
+            app:suffixGravity="center"
+            app:suffixTextColor="#000000"
+            app:suffixTextSize="30sp"
+            app:timeBgDivisionLineSize="1dp"
+            app:timeBgRadius="3dp"
+            app:timeBgSize="50dp"
+            app:timeTextColor="#FFFFFF"
+            app:timeTextSize="30sp" />
+
         <com.dvinfosys.widgets.NumberCounter.Counter
             android:id="@+id/number_counter"
             android:layout_width="wrap_content"

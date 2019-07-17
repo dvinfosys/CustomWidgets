@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.dvinfosys.widgets.Button.NormalButton;
 import com.dvinfosys.widgets.ColorPicker.ColorPickerDialog;
 import com.dvinfosys.widgets.ColorPicker.ColorPickerDialogListener;
+import com.dvinfosys.widgets.CountdownView.CountdownView;
 import com.dvinfosys.widgets.NumberCounter.Counter;
 import com.dvinfosys.widgets.ToastView.ToastView;
 import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
@@ -47,6 +48,11 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
 
         numberCounter.setPlusButtonColor(Color.parseColor("#4CAF50"));
         numberCounter.setMinusButtonColor(Color.parseColor("#D50000"));
+
+        CountdownView mCvCountdownViewTest1 = (CountdownView)findViewById(R.id.countdown_view);
+        mCvCountdownViewTest1.setTag("test1");
+        long time1 = (long)5 * 60 * 60 * 1000;
+        mCvCountdownViewTest1.start(time1);
 
         VPVideoPlayerStandard videoPlayerStandard = findViewById(R.id.vp_videoplayer);
         videoPlayerStandard.setUp("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", VPVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "Elephant Dream");

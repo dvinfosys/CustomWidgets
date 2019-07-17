@@ -17,4 +17,7 @@
     <string name="plus">+</string>
     <string name="minus_description">Decrement button</string>
     <string name="plus_description">Increment button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
