@@ -5,69 +5,78 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".Fragments.EditTextFragment">
+    tools:context=".Fragments.RadioButtonFragment">
 
-    <com.dvinfosys.widgets.EditText.NormalEditText
+    <com.dvinfosys.widgets.RadioButton.NormalRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Normal EditText" />
+        android:text="Normal RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.HeadingEditText
+    <com.dvinfosys.widgets.RadioButton.HeadingRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="heading EditText" />
+        android:text="heading RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.BlackEditText
+    <com.dvinfosys.widgets.RadioButton.BlackRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Black EditText" />
+        android:text="Black RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.ExtraBoldEditText
+    <com.dvinfosys.widgets.RadioButton.ExtraBoldRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="ExtraBold EditText" />
+        android:text="ExtraBold RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.ItalicEditText
+    <com.dvinfosys.widgets.RadioButton.ItalicRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Italic EditText" />
+        android:text="Italic RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.LightEditText
+    <com.dvinfosys.widgets.RadioButton.LightRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Light EditText" />
+        android:text="Light RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.SemiBoldEditText
+    <com.dvinfosys.widgets.RadioButton.SemiBoldRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="SemiBold EditText" />
+        android:text="SemiBold RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.ThinEditText
+    <com.dvinfosys.widgets.RadioButton.ThinRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Thin EditText" />
+        android:text="Thin RadioButton"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.MediumEditText
+    <com.dvinfosys.widgets.RadioButton.MediumRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Medium EditText" />
+        android:text="Medium RadioButton"
+        android:textAllCaps="false" />
 
 </LinearLayout>

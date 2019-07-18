@@ -5,69 +5,69 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".Fragments.EditTextFragment">
+    tools:context=".Fragments.CheckBoxFragment">
 
-    <com.dvinfosys.widgets.EditText.NormalEditText
+    <com.dvinfosys.widgets.CheckBox.NormalCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Normal EditText" />
+        android:text="Normal CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.HeadingEditText
+    <com.dvinfosys.widgets.CheckBox.HeadingCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="heading EditText" />
+        android:text="Heading CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.BlackEditText
+    <com.dvinfosys.widgets.CheckBox.BlackCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Black EditText" />
+        android:text="Black CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.ExtraBoldEditText
+    <com.dvinfosys.widgets.CheckBox.ExtraBoldCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="ExtraBold EditText" />
+        android:text="ExtraBold CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.ItalicEditText
+    <com.dvinfosys.widgets.CheckBox.ItalicCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Italic EditText" />
+        android:text="Italic CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.LightEditText
+    <com.dvinfosys.widgets.CheckBox.LightCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Light EditText" />
+        android:text="Light CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.SemiBoldEditText
+    <com.dvinfosys.widgets.CheckBox.SemiBoldCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="SemiBold EditText" />
+        android:text="SemiBold CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.ThinEditText
+    <com.dvinfosys.widgets.CheckBox.ThinCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Thin EditText" />
+        android:text="Thin CheckBox" />
 
-    <com.dvinfosys.widgets.EditText.MediumEditText
+    <com.dvinfosys.widgets.CheckBox.MediumCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Medium EditText" />
+        android:text="Medium CheckBox" />
 
 </LinearLayout>

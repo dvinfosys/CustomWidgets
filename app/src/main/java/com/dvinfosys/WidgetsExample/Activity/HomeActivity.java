@@ -12,7 +12,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.dvinfosys.WidgetsExample.Fragments.ButtonFragment;
+import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
 import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
+import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
 import com.dvinfosys.WidgetsExample.R;
 
@@ -54,12 +57,7 @@ public class HomeActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
@@ -80,7 +78,11 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_edittext) {
             fragment = new EditTextFragment();
         } else if (id == R.id.nav_checkbox) {
-
+            fragment = new CheckBoxFragment();
+        } else if (id == R.id.nav_button) {
+            fragment = new ButtonFragment();
+        } else if (id == R.id.nav_radiobutton) {
+            fragment = new RadioButtonFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

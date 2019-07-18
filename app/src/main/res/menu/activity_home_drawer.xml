@@ -6,60 +6,55 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_textview"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_textview"
             android:title="@string/menu_textview" />
         <item
             android:id="@+id/nav_edittext"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_edittext"
             android:title="@string/menu_editext" />
         <item
             android:id="@+id/nav_checkbox"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_check_box"
             android:title="@string/menu_checkbox" />
         <item
             android:id="@+id/nav_button"
-            android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_button" />
         <item
             android:id="@+id/nav_radiobutton"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_radio_button"
             android:title="@string/menu_radiobutton" />
         <item
             android:id="@+id/nav_switch"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_switch"
             android:title="@string/menu_switch" />
         <item
             android:id="@+id/nav_togglebutton"
-            android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_toggle_button" />
 
         <item
             android:id="@+id/nav_imageview"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_imageview"
             android:title="@string/menu_imageview" />
         <item
             android:id="@+id/nav_seekbar"
-            android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_seek_bar" />
         <item
             android:id="@+id/nav_video_player"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_video_player"
             android:title="@string/menu_video_player" />
         <item
             android:id="@+id/nav_toastview"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_toastview"
             android:title="@string/menu_toastview" />
         <item
             android:id="@+id/nav_number_counter"
-            android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_numbercounter" />
         <item
             android:id="@+id/nav_countdownview"
-            android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_countdownView" />
 
     </group>

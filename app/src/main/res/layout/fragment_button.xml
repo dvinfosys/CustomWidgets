@@ -5,69 +5,78 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".Fragments.EditTextFragment">
+    tools:context=".Fragments.ButtonFragment">
 
-    <com.dvinfosys.widgets.EditText.NormalEditText
+    <com.dvinfosys.widgets.Button.NormalButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Normal EditText" />
+        android:text="Normal Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.HeadingEditText
+    <com.dvinfosys.widgets.Button.HeadingButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="heading EditText" />
+        android:text="heading Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.BlackEditText
+    <com.dvinfosys.widgets.Button.BlackButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Black EditText" />
+        android:text="Black Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.ExtraBoldEditText
+    <com.dvinfosys.widgets.Button.ExtraBoldButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="ExtraBold EditText" />
+        android:text="ExtraBold Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.ItalicEditText
+    <com.dvinfosys.widgets.Button.ItalicButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Italic EditText" />
+        android:text="Italic Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.LightEditText
+    <com.dvinfosys.widgets.Button.LightButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Light EditText" />
+        android:text="Light Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.SemiBoldEditText
+    <com.dvinfosys.widgets.Button.SemiBoldButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="SemiBold EditText" />
+        android:text="SemiBold Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.ThinEditText
+    <com.dvinfosys.widgets.Button.ThinButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Thin EditText" />
+        android:text="Thin Button"
+        android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.EditText.MediumEditText
+    <com.dvinfosys.widgets.Button.MediumButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:hint="Medium EditText" />
+        android:text="Medium Button"
+        android:textAllCaps="false" />
 
 </LinearLayout>
