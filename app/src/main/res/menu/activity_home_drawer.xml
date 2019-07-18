@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_textview"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_textview" />
+        <item
+            android:id="@+id/nav_edittext"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_editext" />
+        <item
+            android:id="@+id/nav_checkbox"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_checkbox" />
+        <item
+            android:id="@+id/nav_button"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_button" />
+        <item
+            android:id="@+id/nav_radiobutton"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_radiobutton" />
+        <item
+            android:id="@+id/nav_switch"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_switch" />
+        <item
+            android:id="@+id/nav_togglebutton"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_toggle_button" />
+
+        <item
+            android:id="@+id/nav_imageview"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_imageview" />
+        <item
+            android:id="@+id/nav_seekbar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_seek_bar" />
+        <item
+            android:id="@+id/nav_video_player"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_video_player" />
+        <item
+            android:id="@+id/nav_toastview"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_toastview" />
+        <item
+            android:id="@+id/nav_number_counter"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_numbercounter" />
+        <item
+            android:id="@+id/nav_countdownview"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_countdownView" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

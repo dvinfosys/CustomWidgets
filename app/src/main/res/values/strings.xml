@@ -1,4 +1,33 @@
 <resources>
     <string name="app_name">Custom Widgets</string>
     <string name="custom_message">Custom Message ToastView</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Custom Widgets</string>
+    <string name="nav_header_subtitle">dvinfosys0@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_textview">TextView</string>
+    <string name="menu_editext">EditText</string>
+    <string name="menu_checkbox">CheckBox</string>
+    <string name="menu_button">Button</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_radiobutton">Radio Button</string>
+    <string name="menu_switch">Switch</string>
+    <string name="menu_toggle_button">ToggleButton</string>
+    <string name="menu_circle_imageView">CircleImageView</string>
+    <string name="menu_imageview">ImageView</string>
+    <string name="menu_seek_bar">SeekBar</string>
+    <string name="menu_video_player">VP Video Player</string>
+    <string name="menu_toastview">ToastView</string>
+    <string name="menu_numbercounter">Number Counter</string>
+    <string name="menu_countdownView">CountdownView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
