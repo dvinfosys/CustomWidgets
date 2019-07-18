@@ -28,6 +28,10 @@ you could customize following UI controls in your Android application
 * NormalToggleButton
 * CircleImageView
 * RoundedImageView
+* CustomSeekBar
+* VPVideoPlayer
+* ToastView
+* Number Counter
 
 Usage
 -----
