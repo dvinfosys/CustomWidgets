@@ -33,6 +33,7 @@
             android:title="@string/menu_switch" />
         <item
             android:id="@+id/nav_togglebutton"
+            android:icon="@drawable/ic_switch"
             android:title="@string/menu_toggle_button" />
 
         <item
@@ -56,6 +57,10 @@
         <item
             android:id="@+id/nav_countdownview"
             android:title="@string/menu_countdownView" />
+        <item
+            android:id="@+id/nav_progressview"
+            android:icon="@drawable/ic_progressview"
+            android:title="@string/menu_progressview" />
 
     </group>
 

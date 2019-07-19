@@ -118,7 +118,6 @@
         <attr name="radius" format="dimension" />
     </declare-styleable>
 
-
     <!--ColorPicker-->
     <declare-styleable name="ColorPanelView">
         <attr name="showOldColor" format="boolean" />
@@ -133,7 +132,7 @@
         <attr name="alphaChannelVisible" format="boolean|reference" />
         <attr name="alphaChannelText" format="string|reference" />
         <attr name="sliderColor" format="color|reference" />
-        <attr name="dv_borderColor" format="color|reference"/>
+        <attr name="dv_borderColor" format="color|reference" />
     </declare-styleable>
 
     <declare-styleable name="ColorPreference" parent="ColorPickerDialog">
@@ -157,17 +156,17 @@
 
     <!--NumberCounter-->
     <declare-styleable name="Counter">
-        <attr name="stepValue" format="string"/>
-        <attr name="initialValue" format="string"/>
-        <attr name="maxValue" format="string"/>
-        <attr name="minValue" format="string"/>
-        <attr name="plusButtonColor" format="color"/>
-        <attr name="minusButtonColor" format="color"/>
+        <attr name="stepValue" format="string" />
+        <attr name="initialValue" format="string" />
+        <attr name="maxValue" format="string" />
+        <attr name="minValue" format="string" />
+        <attr name="plusButtonColor" format="color" />
+        <attr name="minusButtonColor" format="color" />
         <attr name="plusIcon" format="reference" />
         <attr name="minusIcon" format="reference" />
-        <attr name="textColor" format="color"/>
-        <attr name="textSize" format="dimension"/>
-        <attr name="displayAsInteger" format="boolean"/>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="displayAsInteger" format="boolean" />
     </declare-styleable>
 
     <!--CountdownView-->
@@ -219,6 +218,67 @@
         <attr name="timeBgBorderColor" format="color" />
         <attr name="timeBgBorderSize" format="dimension" />
         <attr name="timeBgBorderRadius" format="dimension" />
+    </declare-styleable>
+
+    <!--ProgressView-->
+
+    <attr name="track_width" format="dimension" />
+    <attr name="start_progress" format="integer" />
+    <attr name="end_progress" format="integer" />
+    <attr name="start_color" format="color" />
+    <attr name="end_color" format="color" />
+    <attr name="isTracked" format="boolean" />
+    <attr name="trackColor" format="color" />
+    <attr name="progressTextColor" format="color" />
+    <attr name="progressDuration" format="integer" />
+    <attr name="progressTextVisibility" format="boolean" />
+    <attr name="progressTextSize" format="dimension" />
+    <attr name="animateType">
+        <enum name="AccelerateDecelerateInterpolator" value="0" />
+        <enum name="LinearInterpolator" value="1" />
+        <enum name="AccelerateInterpolator" value="2" />
+        <enum name="DecelerateInterpolator" value="3" />
+        <enum name="OvershootInterpolator" value="4" />
+    </attr>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="track_width" />
+        <attr name="start_progress" />
+        <attr name="end_progress" />
+        <attr name="start_color" />
+        <attr name="end_color" />
+        <attr name="isTracked" />
+        <attr name="trackColor" />
+        <attr name="progressDuration" />
+        <attr name="progressTextVisibility" />
+        <attr name="progressTextColor" />
+        <attr name="progressTextSize" />
+        <attr name="animateType" />
+        <attr name="isFilled" format="boolean" />
+        <attr name="circleBroken" format="boolean" />
+        <attr name="isGraduated" format="boolean" />
+        <attr name="scaleZone_width" format="dimension" />
+        <attr name="scaleZone_length" format="dimension" />
+        <attr name="scaleZone_corner_radius" format="dimension" />
+        <attr name="scaleZone_padding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressView">
+        <attr name="track_width" />
+        <attr name="start_progress" />
+        <attr name="end_progress" />
+        <attr name="start_color" />
+        <attr name="end_color" />
+        <attr name="isTracked" />
+        <attr name="trackColor" />
+        <attr name="progressDuration" />
+        <attr name="progressTextVisibility" />
+        <attr name="progressTextColor" />
+        <attr name="progressTextSize" />
+        <attr name="animateType" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="text_padding_bottom" format="dimension" />
+        <attr name="textMovedEnable" format="boolean" />
     </declare-styleable>
 
 </resources>

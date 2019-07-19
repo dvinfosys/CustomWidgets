@@ -3,6 +3,7 @@ package com.dvinfosys.widgets.RadioButton;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.dvinfosys.widgets.Utils.TextFontCache;
@@ -12,7 +13,7 @@ import com.dvinfosys.widgets.Utils.TextFontCache;
  * Created by DV Bhuva on 30/03/2019.
  */
 
-public class HeadingRadioButton extends TextView {
+public class HeadingRadioButton extends RadioButton {
     public HeadingRadioButton(Context context) {
         super(context);
         applyCustomFont(context);

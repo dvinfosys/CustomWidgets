@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context=".Fragments.SeekbarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            app:sb_indicator_color="@color/color_gray"
+            app:sb_indicator_text_color="@color/colorAccent"
+            app:sb_indicator_text_size="18sp"
+            app:sb_max="5"
+            app:sb_min="-6"
+            app:sb_only_thumb_draggable="false"
+            app:sb_progress="0"
+            app:sb_seek_smoothly="true"
+            app:sb_show_indicator="rounded_rectangle"
+            app:sb_show_tick_marks_type="oval"
+            app:sb_show_tick_texts="true"
+            app:sb_thumb_color="@color/color_blue"
+            app:sb_thumb_size="20dp"
+            app:sb_tick_marks_color="@color/color_gray"
+            app:sb_tick_marks_size="13dp"
+            app:sb_tick_texts_color="@color/color_blue"
+            app:sb_tick_texts_size="15sp"
+            app:sb_ticks_count="5"
+            app:sb_track_background_color="@color/color_gray"
+            app:sb_track_background_size="2dp"
+            app:sb_track_progress_color="@color/color_blue"
+            app:sb_track_progress_size="4dp" />
+
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="1.default, progress = 50" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_indicator_text_size="28sp"
+            app:sb_progress="50" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="2. progress_value_float=true, show_thumb_text=true \n show_indicator=none" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_progress="76.9"
+            app:sb_progress_value_float="true"
+            app:sb_show_indicator="none"
+            app:sb_show_thumb_text="true" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="3. indicator_stay, setDecimalScale(4)" />
+
+
+
+            <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+                android:id="@+id/scale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sb_max="1"
+                app:sb_min="-2"
+                app:sb_progress="-1.1982"
+                app:sb_progress_value_float="true"
+                app:sb_show_indicator="rectangle"
+                app:sb_thumb_color="@color/color_blue"
+                app:sb_thumb_text_color="@color/color_pink"
+                app:sb_track_progress_color="@color/color_blue" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="4. ticks_count=2 show_tick_texts=true" />
+
+            <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+                android:id="@+id/percent_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sb_indicator_color="@color/color_blue"
+                app:sb_progress="76"
+                app:sb_show_indicator="rectangle"
+                app:sb_show_tick_texts="true"
+                app:sb_tick_texts_color="@color/color_gray"
+                app:sb_ticks_count="2" />
+
+
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="5. show_indicator=circular_bubble, setThumbDrawable" />
+
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:id="@+id/thumb_drawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_progress="56"
+            app:sb_show_indicator="circular_bubble"
+            app:sb_show_tick_texts="true"
+            app:sb_tick_texts_array="@array/last_next_length_2"
+            app:sb_ticks_count="2" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="6. only_thumb_draggable=true" />
+
+            <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sb_max="50"
+                app:sb_min="-50"
+                app:sb_only_thumb_draggable="true"
+                app:sb_show_indicator="circular_bubble"
+                app:sb_show_tick_texts="true"
+                app:sb_thumb_drawable="@drawable/thumb"
+                app:sb_ticks_count="2" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="7. tick_texts_array=@array/last_next_length_2 \n tick_texts_color=@color/color_gray" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_progress="34"
+            app:sb_show_indicator="circular_bubble"
+            app:sb_show_tick_texts="true"
+            app:sb_tick_texts_array="@array/last_next_length_2"
+            app:sb_tick_texts_color="@color/color_gray"
+            app:sb_ticks_count="2" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="8. tick_texts_typeface=serif" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_progress="34"
+            app:sb_show_indicator="circular_bubble"
+            app:sb_show_tick_texts="true"
+            app:sb_tick_texts_array="@array/last_next_length_2"
+            app:sb_tick_texts_color="@color/color_gray"
+            app:sb_tick_texts_typeface="serif"
+            app:sb_ticks_count="2" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="9. r2l=true" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:id="@+id/test1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_progress="34"
+            app:sb_r2l="true"
+            app:sb_show_indicator="circular_bubble"
+            app:sb_show_tick_texts="true"
+            app:sb_tick_texts_array="@array/last_next_length_2"
+            app:sb_tick_texts_color="@color/color_gray"
+            app:sb_ticks_count="2" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="10. thumb_drawable=@drawable/selector_thumb_ripple_drawable" />
+
+            <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sb_progress="34"
+                app:sb_show_indicator="circular_bubble"
+                app:sb_thumb_drawable="@drawable/selector_thumb_ripple_drawable"
+                app:sb_thumb_size="26dp" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="11. continuous listener" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:id="@+id/states"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:id="@+id/progress_float"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:id="@+id/from_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:id="@+id/listener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_progress="34"
+            app:sb_show_indicator="circular_bubble"
+            app:sb_thumb_drawable="@drawable/selector_thumb_ripple_drawable"
+            app:sb_thumb_size="26dp" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="12. custom the size/color for track/thumb/indicator/indicatorText/tickText" />
+
+        <com.dvinfosys.widgets.SeekBar.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sb_indicator_color="@color/color_gray"
+            app:sb_indicator_text_color="@color/colorAccent"
+            app:sb_indicator_text_size="18sp"
+            app:sb_progress="25"
+            app:sb_show_indicator="circular_bubble"
+            app:sb_show_tick_texts="true"
+            app:sb_thumb_color="@color/color_green"
+            app:sb_thumb_size="20dp"
+            app:sb_tick_texts_color="@color/color_blue"
+            app:sb_tick_texts_size="15sp"
+            app:sb_ticks_count="2"
+            app:sb_track_background_color="@color/color_gray"
+            app:sb_track_background_size="2dp"
+            app:sb_track_progress_color="@color/color_blue"
+            app:sb_track_progress_size="4dp" />
+
+    </LinearLayout>
+</ScrollView>

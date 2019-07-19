@@ -15,9 +15,14 @@ import android.view.MenuItem;
 import com.dvinfosys.WidgetsExample.Fragments.ButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
 import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
+import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
+import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
+import com.dvinfosys.WidgetsExample.Fragments.ToastViewFragment;
+import com.dvinfosys.WidgetsExample.Fragments.VPVideoPlayerFragment;
 import com.dvinfosys.WidgetsExample.R;
+import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -40,6 +45,9 @@ public class HomeActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
+        if (VPVideoPlayer.backPress()) {
+            return;
+        }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -83,6 +91,14 @@ public class HomeActivity extends AppCompatActivity
             fragment = new ButtonFragment();
         } else if (id == R.id.nav_radiobutton) {
             fragment = new RadioButtonFragment();
+        } else if (id == R.id.nav_progressview) {
+            fragment = new ProgressViewFragment();
+        } else if (id == R.id.nav_video_player) {
+            fragment = new VPVideoPlayerFragment();
+        } else if (id == R.id.nav_seekbar) {
+            fragment = new SeekbarFragment();
+        } else if (id == R.id.nav_toastview) {
+            fragment = new ToastViewFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
