@@ -1,5 +1,10 @@
 # Android Widgets
 
+<img src="https://github.com/dvinfosys/CustomWidgets/blob/master/Screenshort/logo.png?raw=true" align="left" hspace="10" vspace="10"></a>
+
+CustomWidgets is a library use Android UI controls such as TextView, Button, EditText, ChechBox, RadioButton, Switch, ToggleButton, CircleImageView, SeekBar,Color Picker,Video Player,CustomToast,NumberCounter,RoundedImageView,CountdownView etc with Custom typefaces.
+
+
 ## Add it in your root build.gradle at the end of repositories:
 
           allprojects {
@@ -32,6 +37,7 @@ you could customize following UI controls in your Android application
 * VPVideoPlayer
 * ToastView
 * Number Counter
+* CountdownView
 
 Usage
 -----
