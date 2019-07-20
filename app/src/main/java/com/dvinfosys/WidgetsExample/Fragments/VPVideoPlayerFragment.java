@@ -17,8 +17,8 @@ public class VPVideoPlayerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_vpvideo_player, container, false);
         VPVideoPlayerStandard videoPlayerStandard = view.findViewById(R.id.vp_videoplayer);
-        videoPlayerStandard.setUp("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", VPVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "Elephant Dream");
-        videoPlayerStandard.thumbImageView.setImageURI(Uri.parse("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg"));
+        videoPlayerStandard.setUp("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", VPVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "Elephant Dream");
+        videoPlayerStandard.thumbImageView.setImageURI(Uri.parse("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg"));
         return view;
     }
 

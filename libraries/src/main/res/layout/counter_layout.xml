@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/layout_counter"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -15,7 +14,7 @@
         android:background="@android:color/transparent"
         android:contentDescription="@string/minus_description"
         android:foreground="?android:attr/selectableItemBackground"
-        app:srcCompat="@drawable/minus" />
+        android:src="@drawable/minus" />
 
     <com.dvinfosys.widgets.TextView.NormalTextView
         android:id="@+id/value"
@@ -28,9 +27,9 @@
         android:maxLength="6"
         android:maxLines="1"
         android:minEms="1"
-        android:paddingLeft="@dimen/_3sdp"
-        android:paddingRight="@dimen/_3sdp"
-        android:textSize="@dimen/_25sdp" />
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textSize="25sp" />
 
     <ImageButton
         android:id="@+id/plus"
@@ -39,6 +38,6 @@
         android:background="@android:color/transparent"
         android:contentDescription="@string/plus_description"
         android:foreground="?android:attr/selectableItemBackground"
-        app:srcCompat="@drawable/plus" />
+        android:src="@drawable/plus" />
 
 </LinearLayout>

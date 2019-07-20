@@ -1,5 +1,6 @@
 package com.dvinfosys.WidgetsExample.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -14,13 +15,18 @@ import android.view.MenuItem;
 
 import com.dvinfosys.WidgetsExample.Fragments.ButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
+import com.dvinfosys.WidgetsExample.Fragments.ColorPickerFragment;
+import com.dvinfosys.WidgetsExample.Fragments.CountdownViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
+import com.dvinfosys.WidgetsExample.Fragments.ImageviewFragment;
+import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ToastViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.VPVideoPlayerFragment;
+import com.dvinfosys.WidgetsExample.MainActivity;
 import com.dvinfosys.WidgetsExample.R;
 import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
 
@@ -80,7 +86,7 @@ public class HomeActivity extends AppCompatActivity
         Fragment fragment = null;
 
         if (id == R.id.nav_home) {
-
+            startActivity(new Intent(HomeActivity.this, MainActivity.class));
         } else if (id == R.id.nav_textview) {
             fragment = new TextViewFragment();
         } else if (id == R.id.nav_edittext) {
@@ -99,6 +105,14 @@ public class HomeActivity extends AppCompatActivity
             fragment = new SeekbarFragment();
         } else if (id == R.id.nav_toastview) {
             fragment = new ToastViewFragment();
+        } else if (id == R.id.nav_imageview) {
+            fragment = new ImageviewFragment();
+        } else if (id == R.id.nav_countdownview) {
+            fragment = new CountdownViewFragment();
+        } else if (id == R.id.nav_number_counter) {
+            fragment = new NumberCounterFragment();
+        } else if (id == R.id.nav_color_picker) {
+            fragment = new ColorPickerFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

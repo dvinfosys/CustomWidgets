@@ -31,6 +31,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_progressview">ProgressView</string>
+    <string name="menu_color_picker">Color Picker</string>
 
     <array name="last_next_length_2">
         <item>last</item>

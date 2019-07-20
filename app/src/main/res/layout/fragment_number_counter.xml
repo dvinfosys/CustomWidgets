@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Fragments.NumberCounterFragment">
+
+    <com.dvinfosys.widgets.NumberCounter.Counter
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        app:displayAsInteger="true"
+        app:initialValue="20"
+        app:maxValue="100"
+        app:minValue="1"
+        app:stepValue="1"
+        app:textColor="#000000"
+        app:textSize="12dp" />
+
+    <com.dvinfosys.widgets.TextView.NormalTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="1. Normal NumberCounter" />
+
+    <com.dvinfosys.widgets.NumberCounter.Counter
+        android:id="@+id/number_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        app:displayAsInteger="true"
+        app:initialValue="20"
+        app:maxValue="100"
+        app:minValue="1"
+        app:minusButtonColor="#000000"
+        app:plusButtonColor="#000000"
+        app:stepValue="1"
+        app:textColor="#000000"
+        app:textSize="12dp" />
+
+    <com.dvinfosys.widgets.TextView.NormalTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="2. ButtonColor NumberCounter" />
+
+    <com.dvinfosys.widgets.NumberCounter.Counter
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        app:displayAsInteger="true"
+        app:initialValue="20"
+        app:maxValue="100"
+        app:minValue="1"
+        app:minusIcon="@drawable/minus_button"
+        app:plusIcon="@drawable/add"
+        app:stepValue="1"
+        app:textColor="@color/color_blue"
+        app:textSize="12dp" />
+
+    <com.dvinfosys.widgets.TextView.NormalTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="3. NumberCounter with Icon" />
+
+    <com.dvinfosys.widgets.NumberCounter.Counter
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        app:displayAsInteger="false"
+        app:initialValue="20.4"
+        app:maxValue="50.5"
+        app:minValue="10.5"
+        app:stepValue="1"
+        app:textColor="#000000"
+        app:textSize="12dp" />
+
+    <com.dvinfosys.widgets.TextView.NormalTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="4. Float NumberCounter" />
+
+</LinearLayout>

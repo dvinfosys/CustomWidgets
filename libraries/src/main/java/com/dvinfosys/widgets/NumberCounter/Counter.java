@@ -73,8 +73,8 @@ public class Counter extends LinearLayout {
         float density = getResources().getDisplayMetrics().density;
         textSize = (int) (density * textSize);
 
-        plusButtonColor = ContextCompat.getColor(context, R.color.colorDefault);
-        minusButtonColor = ContextCompat.getColor(context, R.color.colorDefault);
+        plusButtonColor = ContextCompat.getColor(context, R.color.normalColor);
+        minusButtonColor = ContextCompat.getColor(context, R.color.normalColor);
         textColor = ContextCompat.getColor(context, android.R.color.primary_text_light);
 
         if (attrs != null) {

@@ -61,6 +61,10 @@
             android:id="@+id/nav_progressview"
             android:icon="@drawable/ic_progressview"
             android:title="@string/menu_progressview" />
+        <item
+            android:id="@+id/nav_color_picker"
+            android:icon="@drawable/ic_color_picker"
+            android:title="@string/menu_color_picker" />
 
     </group>
 
