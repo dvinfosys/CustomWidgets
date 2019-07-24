@@ -1,82 +1,300 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:scrollbars="none"
     tools:context=".Fragments.ButtonFragment">
 
-    <com.dvinfosys.widgets.Button.NormalButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Normal Button"
-        android:textAllCaps="false" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-    <com.dvinfosys.widgets.Button.HeadingButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="heading Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Normal Button" />
 
-    <com.dvinfosys.widgets.Button.BlackButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Black Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.Button.NormalButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Normal Button"
+            android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.Button.ExtraBoldButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="ExtraBold Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.Button.HeadingButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="heading Button"
+            android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.Button.ItalicButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Italic Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.Button.BlackButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Black Button"
+            android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.Button.LightButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Light Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.Button.ExtraBoldButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="ExtraBold Button"
+            android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.Button.SemiBoldButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="SemiBold Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.Button.ItalicButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Italic Button"
+            android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.Button.ThinButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Thin Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.Button.LightButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Light Button"
+            android:textAllCaps="false" />
 
-    <com.dvinfosys.widgets.Button.MediumButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Medium Button"
-        android:textAllCaps="false" />
+        <com.dvinfosys.widgets.Button.SemiBoldButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="SemiBold Button"
+            android:textAllCaps="false" />
 
-</LinearLayout>
+        <com.dvinfosys.widgets.Button.ThinButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Thin Button"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Button.MediumButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Medium Button"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Round Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Standard" />
+
+        <com.dvinfosys.widgets.Button.RoundButton
+            android:id="@+id/btn_standard"
+            style="@style/TextStyle194"
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Button"
+            app:rb_animation_alpha="false"
+            app:rb_animation_corner_radius="6dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_padding="8dp"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@android:color/transparent"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/colorPrimary"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_radius="6dp"
+            app:rb_corner_width="1dp"
+            app:rb_text_color="@color/colorPrimary"
+            app:rb_text_color_pressed="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="With dot animation" />
+
+        <com.dvinfosys.widgets.Button.RoundButton
+            android:id="@+id/bt_dot"
+            style="@style/TextStyle194"
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Button"
+            app:rb_animation_alpha="true"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_style="dots"
+            app:rb_background_color="@android:color/transparent"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/colorPrimary"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_radius="6dp"
+            app:rb_corner_width="1dp"
+            app:rb_text_color="@color/colorPrimary"
+            app:rb_text_color_pressed="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Round morphing" />
+
+        <com.dvinfosys.widgets.Button.RoundButton
+            android:id="@+id/bt_round"
+            style="@style/TextStyle194"
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Button"
+            app:rb_animation_alpha="false"
+            app:rb_animation_corner_radius="20dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorPrimaryDark"
+            app:rb_animation_progress_padding="8dp"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@android:color/transparent"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/colorPrimary"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_radius="4dp"
+            app:rb_corner_width="1dp"
+            app:rb_text_color="@color/colorPrimary"
+            app:rb_text_color_pressed="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Alpha morphing" />
+
+        <com.dvinfosys.widgets.Button.RoundButton
+            android:id="@+id/bt_alpha"
+            style="@style/TextStyle194"
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Button"
+            app:rb_animation_alpha="true"
+            app:rb_animation_corner_radius="20dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_inner_resource="@drawable/ic_action_cose"
+            app:rb_animation_inner_resource_color="@color/green"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_padding="3dp"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@android:color/transparent"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/colorPrimary"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_radius="20dp"
+            app:rb_corner_width="1dp"
+            app:rb_failure_resource="@drawable/ic_action_cose"
+            app:rb_text_color="@color/colorPrimary"
+            app:rb_text_color_pressed="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Success" />
+
+        <com.dvinfosys.widgets.Button.RoundButton
+            android:id="@+id/bt_success"
+            style="@style/TextStyle194"
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Button"
+            app:rb_animation_alpha="false"
+            app:rb_animation_corner_radius="20dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_padding="8dp"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@android:color/transparent"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/colorPrimary"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_width="1dp"
+            app:rb_success_resource="@drawable/ic_done_white_48dp"
+            app:rb_text_color="@color/colorPrimary"
+            app:rb_text_color_pressed="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Failure" />
+
+        <com.dvinfosys.widgets.Button.RoundButton
+            android:id="@+id/bt_failure"
+            style="@style/TextStyle194"
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Button"
+            app:rb_animation_alpha="false"
+            app:rb_animation_corner_radius="20dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_padding="8dp"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@android:color/transparent"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/colorPrimary"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_width="1dp"
+            app:rb_failure_resource="@drawable/ic_action_cose"
+            app:rb_text_color="@color/colorPrimary"
+            app:rb_text_color_pressed="@android:color/white" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Bonus" />
+
+        <com.dvinfosys.widgets.Button.RoundButton
+            android:id="@+id/bt_bonus"
+            style="@style/TextStyle194"
+            android:layout_width="88dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Button"
+            app:rb_animation_alpha="false"
+            app:rb_animation_corner_radius="20dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_padding="8dp"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@android:color/transparent"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/colorPrimary"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_width="1dp"
+            app:rb_failure_resource="@drawable/ic_action_cose"
+            app:rb_text_color="@color/colorPrimary"
+            app:rb_text_color_pressed="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -281,4 +281,106 @@
         <attr name="textMovedEnable" format="boolean" />
     </declare-styleable>
 
+    <!--RoundButton-->
+
+    <attr name="rb_animation_duration" format="integer" />
+    <attr name="rb_animation_corner_radius" format="dimension" />
+    <attr name="rb_animation_alpha" format="boolean" />
+    <attr name="rb_animation_progress_color" format="color" />
+    <attr name="rb_animation_progress_padding" format="dimension" />
+    <attr name="rb_animation_progress_width" format="dimension" />
+
+    <attr name="rb_animation_custom_resource" format="reference" />
+    <attr name="rb_animation_inner_resource" format="reference" />
+    <attr name="rb_animation_inner_resource_color" format="color" />
+
+    <attr name="rb_success_color" format="color" />
+    <attr name="rb_success_resource" format="reference" />
+    <attr name="rb_failure_color" format="color" />
+    <attr name="rb_failure_resource" format="reference" />
+
+    <attr name="rb_corner_radius" format="dimension" />
+    <attr name="rb_corner_width" format="dimension" />
+    <attr name="rb_corner_color" format="color" />
+    <attr name="rb_corner_color_pressed" format="color" />
+    <attr name="rb_corner_color_disabled" format="color" />
+    <attr name="rb_background_color" format="color" />
+    <attr name="rb_background_color_pressed" format="color" />
+    <attr name="rb_background_color_disabled" format="color" />
+    <attr name="rb_text_color" format="color" />
+    <attr name="rb_text_color_pressed" format="color" />
+    <attr name="rb_text_color_disabled" format="color" />
+
+    <declare-styleable name="RoundButton">
+        <attr name="rb_animation_duration" />
+        <attr name="rb_animation_corner_radius" />
+        <attr name="rb_animation_alpha" />
+        <attr name="rb_animation_progress_color" />
+        <attr name="rb_animation_progress_padding" />
+        <attr name="rb_animation_progress_width" />
+        <attr name="rb_animation_progress_style" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="dots" value="1" />
+            <enum name="custom" value="2" />
+        </attr>
+
+        <attr name="rb_animation_custom_resource" />
+        <attr name="rb_animation_inner_resource" />
+        <attr name="rb_animation_inner_resource_color" />
+
+        <attr name="rb_success_color" />
+        <attr name="rb_success_resource" />
+        <attr name="rb_failure_color" />
+        <attr name="rb_failure_resource" />
+
+        <attr name="rb_corner_radius" />
+        <attr name="rb_corner_width" />
+        <attr name="rb_corner_color" />
+        <attr name="rb_corner_color_pressed" />
+        <attr name="rb_corner_color_disabled" />
+        <attr name="rb_background_color" />
+        <attr name="rb_background_color_pressed" />
+        <attr name="rb_background_color_disabled" />
+        <attr name="rb_text_color" />
+        <attr name="rb_text_color_pressed" />
+        <attr name="rb_text_color_disabled" />
+    </declare-styleable>
+
+    <!--RoundTextView-->
+    <declare-styleable name="RoundTextView">
+        <attr name="rb_animation_duration" />
+        <attr name="rb_animation_corner_radius" />
+        <attr name="rb_animation_alpha" />
+        <attr name="rb_animation_progress_color" />
+        <attr name="rb_animation_progress_padding" />
+        <attr name="rb_animation_progress_width" />
+        <attr name="rt_animation_progress_style" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="dots" value="1" />
+            <enum name="custom" value="2" />
+        </attr>
+
+        <attr name="rb_animation_custom_resource" />
+        <attr name="rb_animation_inner_resource" />
+        <attr name="rb_animation_inner_resource_color" />
+
+        <attr name="rb_success_color" />
+        <attr name="rb_success_resource" />
+        <attr name="rb_failure_color" />
+        <attr name="rb_failure_resource" />
+
+        <attr name="rb_corner_radius" />
+        <attr name="rb_corner_width" />
+        <attr name="rb_corner_color" />
+        <attr name="rb_corner_color_pressed" />
+        <attr name="rb_corner_color_disabled" />
+        <attr name="rb_background_color" />
+        <attr name="rb_background_color_pressed" />
+        <attr name="rb_background_color_disabled" />
+        <attr name="rb_text_color" />
+        <attr name="rb_text_color_pressed" />
+        <attr name="rb_text_color_disabled" />
+    </declare-styleable>
+
+
 </resources>

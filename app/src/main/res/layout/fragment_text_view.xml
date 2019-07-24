@@ -1,92 +1,277 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:scrollbars="none"
     tools:context=".Fragments.TextViewFragment">
 
-    <com.dvinfosys.widgets.TextView.NormalTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Normal TextView" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <com.dvinfosys.widgets.TextView.HeadingTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="heading TextView" />
+        <com.dvinfosys.widgets.TextView.NormalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Normal TextView" />
 
-    <com.dvinfosys.widgets.TextView.BlackTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Black TextView" />
+        <com.dvinfosys.widgets.TextView.HeadingTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="heading TextView" />
 
-    <com.dvinfosys.widgets.TextView.ExtraBoldTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="ExtraBold TextView" />
+        <com.dvinfosys.widgets.TextView.BlackTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Black TextView" />
 
-    <com.dvinfosys.widgets.TextView.ItalicTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Italic TextView" />
+        <com.dvinfosys.widgets.TextView.ExtraBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="ExtraBold TextView" />
 
-    <com.dvinfosys.widgets.TextView.LightTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Light TextView" />
+        <com.dvinfosys.widgets.TextView.ItalicTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Italic TextView" />
 
-    <com.dvinfosys.widgets.TextView.SemiBoldTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="SemiBold TextView" />
+        <com.dvinfosys.widgets.TextView.LightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Light TextView" />
 
-    <com.dvinfosys.widgets.TextView.ThinTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Thin TextView" />
+        <com.dvinfosys.widgets.TextView.SemiBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="SemiBold TextView" />
 
-    <com.dvinfosys.widgets.TextView.MediumTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Medium TextView" />
+        <com.dvinfosys.widgets.TextView.ThinTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Thin TextView" />
 
-    <com.dvinfosys.widgets.TextView.GradientTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Gradient TextView"
-        app:gradientEnd="@color/successColor"
-        app:gradientStart="@color/color_blue" />
+        <com.dvinfosys.widgets.TextView.MediumTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Medium TextView" />
 
-    <com.dvinfosys.widgets.TextView.GradientBoldTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="GradientBold TextView"
-        app:endColor="#F44336"
-        app:startColor="#F59C96" />
+        <com.dvinfosys.widgets.TextView.GradientTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Gradient TextView"
+            app:gradientEnd="@color/successColor"
+            app:gradientStart="@color/color_blue" />
 
-</LinearLayout>
+        <com.dvinfosys.widgets.TextView.GradientBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="GradientBold TextView"
+            app:endColor="#F44336"
+            app:startColor="#F59C96" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.dvinfosys.widgets.TextView.RoundTextView
+                android:id="@+id/tv_standard"
+                style="@style/TextStyle194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Standard TextView"
+                app:rb_animation_alpha="false"
+                app:rb_animation_corner_radius="6dp"
+                app:rb_animation_duration="500"
+                app:rb_animation_progress_color="@color/colorAccent"
+                app:rb_animation_progress_padding="8dp"
+                app:rb_animation_progress_width="2dp"
+                app:rb_background_color="@android:color/transparent"
+                app:rb_background_color_pressed="@color/colorPrimary"
+                app:rb_corner_color="@color/colorPrimary"
+                app:rb_corner_color_pressed="@color/colorPrimary"
+                app:rb_corner_radius="6dp"
+                app:rb_corner_width="1dp"
+                app:rb_text_color="@color/colorPrimary"
+                app:rb_text_color_pressed="@android:color/white" />
+
+            <com.dvinfosys.widgets.TextView.RoundTextView
+                android:id="@+id/tv_dot"
+                style="@style/TextStyle194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="With dot animation TextView"
+                app:rb_animation_alpha="true"
+                app:rb_animation_duration="500"
+                app:rb_animation_progress_color="@color/colorAccent"
+                app:rb_animation_progress_style="dots"
+                app:rb_background_color="@android:color/transparent"
+                app:rb_background_color_pressed="@color/colorPrimary"
+                app:rb_corner_color="@color/colorPrimary"
+                app:rb_corner_color_pressed="@color/colorPrimary"
+                app:rb_corner_radius="6dp"
+                app:rb_corner_width="1dp"
+                app:rb_text_color="@color/colorPrimary"
+                app:rb_text_color_pressed="@android:color/white" />
+
+            <com.dvinfosys.widgets.TextView.RoundTextView
+                android:id="@+id/tv_round"
+                style="@style/TextStyle194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Round morphing TextView"
+                app:rb_animation_alpha="false"
+                app:rb_animation_corner_radius="20dp"
+                app:rb_animation_duration="500"
+                app:rb_animation_progress_color="@color/colorPrimaryDark"
+                app:rb_animation_progress_padding="8dp"
+                app:rb_animation_progress_width="2dp"
+                app:rb_background_color="@android:color/transparent"
+                app:rb_background_color_pressed="@color/colorPrimary"
+                app:rb_corner_color="@color/colorPrimary"
+                app:rb_corner_color_pressed="@color/colorPrimary"
+                app:rb_corner_radius="4dp"
+                app:rb_corner_width="1dp"
+                app:rb_text_color="@color/colorPrimary"
+                app:rb_text_color_pressed="@android:color/white" />
+
+            <com.dvinfosys.widgets.TextView.RoundTextView
+                android:id="@+id/tv_alpha"
+                style="@style/TextStyle194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Alpha morphing TextView"
+                app:rb_animation_alpha="true"
+                app:rb_animation_corner_radius="20dp"
+                app:rb_animation_duration="500"
+                app:rb_animation_inner_resource="@drawable/ic_action_cose"
+                app:rb_animation_inner_resource_color="@color/green"
+                app:rb_animation_progress_color="@color/colorAccent"
+                app:rb_animation_progress_padding="3dp"
+                app:rb_animation_progress_width="2dp"
+                app:rb_background_color="@android:color/transparent"
+                app:rb_background_color_pressed="@color/colorPrimary"
+                app:rb_corner_color="@color/colorPrimary"
+                app:rb_corner_color_pressed="@color/colorPrimary"
+                app:rb_corner_radius="20dp"
+                app:rb_corner_width="1dp"
+                app:rb_failure_resource="@drawable/ic_action_cose"
+                app:rb_text_color="@color/colorPrimary"
+                app:rb_text_color_pressed="@android:color/white" />
+
+            <com.dvinfosys.widgets.TextView.RoundTextView
+                android:id="@+id/tv_success"
+                style="@style/TextStyle194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Success TextView"
+                app:rb_animation_alpha="false"
+                app:rb_animation_corner_radius="20dp"
+                app:rb_animation_duration="500"
+                app:rb_animation_progress_color="@color/colorAccent"
+                app:rb_animation_progress_padding="8dp"
+                app:rb_animation_progress_width="2dp"
+                app:rb_background_color="@android:color/transparent"
+                app:rb_background_color_pressed="@color/colorPrimary"
+                app:rb_corner_color="@color/colorPrimary"
+                app:rb_corner_color_pressed="@color/colorPrimary"
+                app:rb_corner_width="1dp"
+                app:rb_success_resource="@drawable/ic_done_white_48dp"
+                app:rb_text_color="@color/colorPrimary"
+                app:rb_text_color_pressed="@android:color/white" />
+
+            <com.dvinfosys.widgets.TextView.RoundTextView
+                android:id="@+id/tv_failure"
+                style="@style/TextStyle194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Failure TextView"
+                app:rb_animation_alpha="false"
+                app:rb_animation_corner_radius="20dp"
+                app:rb_animation_duration="500"
+                app:rb_animation_progress_color="@color/colorAccent"
+                app:rb_animation_progress_padding="8dp"
+                app:rb_animation_progress_width="2dp"
+                app:rb_background_color="@android:color/transparent"
+                app:rb_background_color_pressed="@color/colorPrimary"
+                app:rb_corner_color="@color/colorPrimary"
+                app:rb_corner_color_pressed="@color/colorPrimary"
+                app:rb_corner_width="1dp"
+                app:rb_failure_resource="@drawable/ic_action_cose"
+                app:rb_text_color="@color/colorPrimary"
+                app:rb_text_color_pressed="@android:color/white" />
+
+            <com.dvinfosys.widgets.TextView.RoundTextView
+                android:id="@+id/tv_bonus"
+                style="@style/TextStyle194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Bonus TextView"
+                app:rb_animation_alpha="false"
+                app:rb_animation_corner_radius="20dp"
+                app:rb_animation_duration="500"
+                app:rb_animation_progress_color="@color/colorAccent"
+                app:rb_animation_progress_padding="8dp"
+                app:rb_animation_progress_width="2dp"
+                app:rb_background_color="@android:color/transparent"
+                app:rb_background_color_pressed="@color/colorPrimary"
+                app:rb_corner_color="@color/colorPrimary"
+                app:rb_corner_color_pressed="@color/colorPrimary"
+                app:rb_corner_width="1dp"
+                app:rb_failure_resource="@drawable/ic_action_cose"
+                app:rb_text_color="@color/colorPrimary"
+                app:rb_text_color_pressed="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

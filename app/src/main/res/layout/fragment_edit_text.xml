@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,67 +7,84 @@
     android:orientation="vertical"
     tools:context=".Fragments.EditTextFragment">
 
-    <com.dvinfosys.widgets.EditText.NormalEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="Normal EditText" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <com.dvinfosys.widgets.EditText.HeadingEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="heading EditText" />
+        <com.dvinfosys.widgets.EditText.NormalEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="Normal EditText" />
 
-    <com.dvinfosys.widgets.EditText.BlackEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="Black EditText" />
+        <com.dvinfosys.widgets.EditText.HeadingEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="heading EditText" />
 
-    <com.dvinfosys.widgets.EditText.ExtraBoldEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="ExtraBold EditText" />
+        <com.dvinfosys.widgets.EditText.BlackEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="Black EditText" />
 
-    <com.dvinfosys.widgets.EditText.ItalicEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="Italic EditText" />
+        <com.dvinfosys.widgets.EditText.ExtraBoldEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="ExtraBold EditText" />
 
-    <com.dvinfosys.widgets.EditText.LightEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="Light EditText" />
+        <com.dvinfosys.widgets.EditText.ItalicEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="Italic EditText" />
 
-    <com.dvinfosys.widgets.EditText.SemiBoldEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="SemiBold EditText" />
+        <com.dvinfosys.widgets.EditText.LightEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="Light EditText" />
 
-    <com.dvinfosys.widgets.EditText.ThinEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="Thin EditText" />
+        <com.dvinfosys.widgets.EditText.SemiBoldEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="SemiBold EditText" />
 
-    <com.dvinfosys.widgets.EditText.MediumEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:hint="Medium EditText" />
+        <com.dvinfosys.widgets.EditText.ThinEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="Thin EditText" />
 
-</LinearLayout>
+        <com.dvinfosys.widgets.EditText.MediumEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:hint="Medium EditText" />
+
+        <com.dvinfosys.widgets.EditText.ZoomEditTextView
+            android:id="@+id/edt_zoom_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Zoom EditTextView"
+            android:textColor="@color/color_green"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
