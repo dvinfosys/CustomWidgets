@@ -23,6 +23,7 @@ import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
+import com.dvinfosys.WidgetsExample.Fragments.SwitchFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ToastViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.VPVideoPlayerFragment;
@@ -113,6 +114,8 @@ public class HomeActivity extends AppCompatActivity
             fragment = new NumberCounterFragment();
         } else if (id == R.id.nav_color_picker) {
             fragment = new ColorPickerFragment();
+        } else if (id == R.id.nav_switch) {
+            fragment = new SwitchFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

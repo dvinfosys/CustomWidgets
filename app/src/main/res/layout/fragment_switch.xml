@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.SwitchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.dvinfosys.widgets.Switch.SwitchButton
+            android:id="@+id/switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <com.dvinfosys.widgets.Switch.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:sb_checked="true" />
+
+        <com.dvinfosys.widgets.Switch.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:sb_checked="true"
+            app:show_indicator="false" />
+
+        <com.dvinfosys.widgets.Switch.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:sb_checked="true"
+            app:sb_checked_color="#fdc951" />
+
+        <com.dvinfosys.widgets.Switch.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:sb_background="#FFF"
+            app:sb_button_color="#db99c7"
+            app:sb_checked_color="#A36F95"
+            app:sb_checkline_color="#a5dc88"
+            app:sb_shadow_color="#A36F95"
+            app:sb_uncheckcircle_color="#A36F95" />
+
+        <com.dvinfosys.widgets.Switch.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:sb_enable_effect="false" />
+
+        <com.dvinfosys.widgets.Switch.NormalSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Normal Switch"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Switch.HeadingSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="heading Switch"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Switch.BlackSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Black Switch"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Switch.ExtraBoldSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="ExtraBold Switch"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Switch.ItalicSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Italic Switch"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Switch.LightSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Light Switch"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Switch.SemiBoldSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="SemiBold Switch"
+            android:textAllCaps="false" />
+
+        <com.dvinfosys.widgets.Switch.ThinSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="Thin Switch"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>
