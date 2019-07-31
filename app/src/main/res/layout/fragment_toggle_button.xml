@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Fragments.ToggleButtonFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="14sp"
+            app:tb_colorBorder="@color/colorAccent"
+            app:tb_on="false" />
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="14sp"
+            app:tb_colorBorder="@color/colorAccent"
+            app:tb_on="false" />
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:enabled="false"
+            android:textSize="14sp"
+            app:tb_colorBorder="@color/colorAccent"
+            app:tb_on="true" />
+    </LinearLayout>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="14sp"
+            app:tb_colorBorder="#00c4a6"
+            app:tb_colorOn="#00c4a6"
+            app:tb_on="false"
+            app:tb_textOff="OFF"
+            app:tb_textOn="ON" />
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="14sp"
+            app:tb_colorBorder="#00c4a6"
+            app:tb_colorOn="#00c4a6"
+            app:tb_on="true"
+            app:tb_textOff="OFF"
+            app:tb_textOn="ON" />
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:enabled="false"
+            android:textSize="14sp"
+            app:tb_colorBorder="#00c4a6"
+            app:tb_colorOn="#00c4a6"
+            app:tb_on="false"
+            app:tb_textOff="OFF"
+            app:tb_textOn="ON" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_7"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="12sp"
+            app:tb_colorBorder="#D3D3D3"
+            app:tb_colorOn="@color/colorPrimary"
+            app:tb_on="false"
+            app:tb_textOff="STOP"
+            app:tb_textOn="START" />
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_8"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="12sp"
+            app:tb_colorBorder="@color/colorPrimary"
+            app:tb_colorOn="@color/colorPrimary"
+            app:tb_on="true"
+            app:tb_textOff="STOP"
+            app:tb_textOn="START" />
+
+        <com.dvinfosys.widgets.ToggleButton.ToggleButton
+            android:id="@+id/toggle_button_9"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:enabled="false"
+            android:textSize="12sp"
+            app:tb_colorBorder="@color/colorAccent"
+            app:tb_on="true"
+            app:tb_textOff="STOP"
+            app:tb_textOn="START" />
+    </android.support.v7.widget.LinearLayoutCompat>
+</LinearLayout>
+

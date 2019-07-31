@@ -21,7 +21,7 @@ public class CheckBoxFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle("CheckBox");
+        getActivity().setTitle("CheckBox Example");
     }
 
 }

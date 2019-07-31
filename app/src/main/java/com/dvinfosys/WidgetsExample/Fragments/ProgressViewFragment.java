@@ -50,7 +50,7 @@ public class ProgressViewFragment extends Fragment implements HorizontalProgress
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle("ProgressView");
+        getActivity().setTitle("ProgressView Example");
     }
 
     @Override

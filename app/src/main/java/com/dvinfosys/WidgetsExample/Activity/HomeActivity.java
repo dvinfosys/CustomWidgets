@@ -26,6 +26,7 @@ import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SwitchFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ToastViewFragment;
+import com.dvinfosys.WidgetsExample.Fragments.ToggleButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.VPVideoPlayerFragment;
 import com.dvinfosys.WidgetsExample.MainActivity;
 import com.dvinfosys.WidgetsExample.R;
@@ -116,6 +117,8 @@ public class HomeActivity extends AppCompatActivity
             fragment = new ColorPickerFragment();
         } else if (id == R.id.nav_switch) {
             fragment = new SwitchFragment();
+        } else if (id == R.id.nav_togglebutton) {
+            fragment = new ToggleButtonFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

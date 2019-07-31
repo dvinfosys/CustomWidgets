@@ -19,4 +19,8 @@
     <dimen name="default_zone_width">6dp</dimen>
     <dimen name="default_zone_padding">16dp</dimen>
     <dimen name="default_zone_corner_radius">8dp</dimen>
+
+    <dimen name="tb_default_width">72dp</dimen>
+    <dimen name="tb_default_height">32dp</dimen>
+
 </resources>
