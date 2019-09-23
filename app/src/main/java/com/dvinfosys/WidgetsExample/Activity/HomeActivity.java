@@ -23,6 +23,7 @@ import com.dvinfosys.WidgetsExample.Fragments.ImageviewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
+import com.dvinfosys.WidgetsExample.Fragments.SearchableSpinnerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SwitchFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
@@ -122,6 +123,8 @@ public class HomeActivity extends AppCompatActivity
             fragment = new ToggleButtonFragment();
         } else if (id == R.id.nav_folding_cell) {
             fragment = new FoldingCellFragment();
+        } else if (id == R.id.nav_searchable_spinner) {
+            fragment = new SearchableSpinnerFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
