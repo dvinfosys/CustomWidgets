@@ -18,6 +18,7 @@ import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ColorPickerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CountdownViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
+import com.dvinfosys.WidgetsExample.Fragments.FoldingCellFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ImageviewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
@@ -119,6 +120,8 @@ public class HomeActivity extends AppCompatActivity
             fragment = new SwitchFragment();
         } else if (id == R.id.nav_togglebutton) {
             fragment = new ToggleButtonFragment();
+        } else if (id == R.id.nav_folding_cell) {
+            fragment = new FoldingCellFragment();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

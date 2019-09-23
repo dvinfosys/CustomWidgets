@@ -420,5 +420,11 @@
         <attr name="android:enabled" />
     </declare-styleable>
 
+    <declare-styleable name="FoldingCell">
+        <attr name="animationDuration" format="integer"/>
+        <attr name="backSideColor" format="color"/>
+        <attr name="additionalFlipsCount" format="integer"/>
+        <attr name="cameraHeight" format="integer"/>
+    </declare-styleable>
 
 </resources>

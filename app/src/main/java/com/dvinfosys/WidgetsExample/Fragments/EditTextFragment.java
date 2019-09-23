@@ -11,22 +11,37 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 
 import com.dvinfosys.WidgetsExample.R;
+import com.dvinfosys.widgets.EditText.EditTextSpinner;
 import com.dvinfosys.widgets.EditText.ZoomEditTextView;
+
+import java.util.ArrayList;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
 
 public class EditTextFragment extends Fragment {
 
     private ZoomEditTextView edtZoom;
+    private EditTextSpinner edtSpinner;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_edit_text, container, false);
         edtZoom = view.findViewById(R.id.edt_zoom_edittext);
+        edtSpinner=view.findViewById(R.id.edt_editSpinner);
+
         edtZoom.setOnFocusChangeListener(new MyFocusChangeListener());
         edtZoom.setFocusableInTouchMode(true);
         edtZoom.setTextIsSelectable(true);
         edtZoom.setRawInputType(InputType.TYPE_CLASS_TEXT);
+
+        ArrayList<String> options = new ArrayList<>();
+        options.add("Option 1");
+        options.add("Option 2");
+        options.add("Option 3");
+        options.add("Option 4");
+
+        edtSpinner.setOptions(options);
+
         return view;
     }
 
