@@ -97,7 +97,6 @@ public class HorizontalProgressView extends View {
         mCornerRadius = typedArray.getDimensionPixelSize(R.styleable.HorizontalProgressView_corner_radius, getResources().getDimensionPixelSize(R.dimen.default_corner_radius));
         mTextPaddingBottomOffset = typedArray.getDimensionPixelSize(R.styleable.HorizontalProgressView_text_padding_bottom, getResources().getDimensionPixelSize(R.dimen.default_corner_radius));
         isTextMoved = typedArray.getBoolean(R.styleable.HorizontalProgressView_textMovedEnable, true);
-        Log.e(TAG, "progressDuration: " + mProgressDuration);
 
         typedArray.recycle();
         moveProgress = mStartProgress;
@@ -293,7 +292,7 @@ public class HorizontalProgressView extends View {
 
     public void startProgressAnimation() {
         progressAnimator = ObjectAnimator.ofFloat(this, "progress", mStartProgress, mEndProgress);
-        Log.e(TAG, "progressDuration: " + mProgressDuration);
+        //Log.e(TAG, "progressDuration: " + mProgressDuration);
         progressAnimator.setInterpolator(mInterpolator);
         progressAnimator.setDuration(mProgressDuration);
         progressAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
