@@ -21,6 +21,7 @@ import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
 import com.dvinfosys.WidgetsExample.Fragments.FoldingCellFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ImageviewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
+import com.dvinfosys.WidgetsExample.Fragments.PaperOnboardingFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SearchableSpinnerFragment;
@@ -128,10 +129,8 @@ public class HomeActivity extends AppCompatActivity
             fragment = new SearchableSpinnerFragment();
         } else if (id == R.id.nav_spotlight) {
             fragment = new SpotlightFragment();
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_paper_onboarding) {
+            fragment = new PaperOnboardingFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
