@@ -313,4 +313,8 @@ public class Counter extends LinearLayout {
         value.setTextSize(this.textSize);
     }
 
+    public void setInitialValue(String value){
+        currentValue = (value != null) ? Double.valueOf(value) : DEFAULT_CURRENT_VALUE;
+        setupValueTextView();
+    }
 }

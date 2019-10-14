@@ -25,4 +25,5 @@
     <color name="green_end">#3bb2b8</color>
     <color name="blue_start">#879af2</color>
     <color name="blue_end">#fda000</color>
+    <color name="background">#E6000000</color>
 </resources>

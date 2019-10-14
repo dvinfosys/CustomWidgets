@@ -93,4 +93,18 @@
         android:layout_margin="8dp"
         android:text="4. Float NumberCounter" />
 
+    <com.dvinfosys.widgets.NumberCounter.Counter
+        android:id="@+id/nc_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp" />
+
+    <com.dvinfosys.widgets.TextView.NormalTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="5. Java Base" />
+
 </LinearLayout>

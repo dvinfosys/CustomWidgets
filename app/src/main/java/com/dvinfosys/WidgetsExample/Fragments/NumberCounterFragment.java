@@ -14,12 +14,22 @@ import com.dvinfosys.widgets.NumberCounter.Counter;
 
 public class NumberCounterFragment extends Fragment {
 
-    private Counter counter;
+    private Counter ncJavaBase;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_number_counter, container, false);
-        counter = v.findViewById(R.id.number_counter);
+        ncJavaBase = v.findViewById(R.id.nc_java);
+        ncJavaBase.setInitialValue("20");
+        ncJavaBase.setStepValue(Double.valueOf(2));
+        ncJavaBase.setMaxValue(Double.valueOf(40));
+        ncJavaBase.setMinValue(Double.valueOf(10));
+        ncJavaBase.setCurrentValue(Double.valueOf(14));
+        ncJavaBase.setDisplayingInteger(true);
+        ncJavaBase.setTextColor(Color.parseColor("#4CAF50"));
+        ncJavaBase.setMinusButtonColor(Color.parseColor("#909090"));
+        ncJavaBase.setPlusButtonColor(Color.parseColor("#909090"));
+        ncJavaBase.setTextSize(16);
         return v;
     }
 
