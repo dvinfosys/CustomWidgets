@@ -24,130 +24,25 @@ Check out [CustomWidgets releases](https://github.com/dvinfosys/CustomWidgets/re
 	
 you could customize following UI controls in your Android application
 
-* NormalTextView, HeadingTextView, BlackTextView, ExtraBoldTextView, ItalicTextView, LightTextView, SemiBoldTextView, ThinTextView
-* NormalEditText
-* NormalCheckBox
-* NormalButton
-* NormalRadioButton
-* NormalSwitch
-* NormalToggleButton
-* CircleImageView
-* RoundedImageView
-* CustomSeekBar
-* VPVideoPlayer
-* ToastView
-* Number Counter
-* CountdownView
+* [TextView, HeadingTextView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/TextViewFragment.java)
+* [EditText](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/EditTextFragment.java)
+* [CheckBox](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/CheckBoxFragment.java)
+* [Button](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ButtonFragment.java)
+* [RadioButton](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/RadioButtonFragment.java)
+* [Switch](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/SwitchFragment.java)
+* [ToggleButton](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ToggleButtonFragment.java)
+* [CircleImageView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ImageviewFragment.java)
+* [CustomSeekBar](https://github.com/dvinfosys/CustomWidgets/wiki/CustomSeekBar)
+* [VPVideoPlayer](https://github.com/dvinfosys/CustomWidgets/wiki/VPVideoPlayer)
+* [ToastView](https://github.com/dvinfosys/CustomWidgets/wiki/ToastView)
+* [Number Counter](https://github.com/dvinfosys/CustomWidgets/wiki/Number-Counter)
+* [CountdownView](https://github.com/dvinfosys/CustomWidgets/wiki/CountdownView)
+* [Spotlight](https://github.com/dvinfosys/CustomWidgets/wiki/Spotlight)
+* [Paper ONBOARDING](https://github.com/dvinfosys/CustomWidgets/wiki/PAPER-ONBOARDING)
+* [Expanding Collection](https://github.com/dvinfosys/CustomWidgets/wiki/Expanding-Collection)
+* [Seekbar](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/SeekbarFragment.java)
+* [ProgressView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ProgressViewFragment.java)
 
-Usage
------
-
-TextView
-
-TextView (NormalTextView)
-```xml
-<com.dvinfosys.widgets.TextView.NormalTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-Heading TextView (HeadingTextView)
-```xml
-<com.dvinfosys.widgets.TextView.HeadingTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-Button (NormalButton)
-```xml
-<com.dvinfosys.widgets.TextView.NormalButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-EditText (NormalEditText)
-```xml
-<com.dvinfosys.widgets.TextView.NormalEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-RadioButton (NormalRadioButton)
-```xml
-<com.dvinfosys.widgets.TextView.NormalRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-CheckBox (NormalCheckBox)
-```xml
-<com.dvinfosys.widgets.TextView.NormalCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-ToggleButton (NormalToggleButton)
-```xml
-<com.dvinfosys.widgets.TextView.NormalToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-Switch (NormalSwitch)
-```xml
-<com.dvinfosys.widgets.TextView.NormalSwitch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-```
-
-CircleImageView
-```xml
-<com.dvinfosys.widgets.ImageView.CircleImageView
-                android:id="@+id/thumbnail"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:clickable="true"
-                android:scaleType="centerCrop"
-                android:src="@mipmap/ic_launcher"
-                app:dv_border_color="#949494"
-                app:dv_border_width="2dp" />
-```
-RoundedImageView
-```xml
-<com.dvinfosys.widgets.ImageView.RoundedImageView
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_margin="8dp"
-            android:src="@drawable/demo_image"
-            app:borderColor="@color/color_blue"
-            app:borderWidth="1dp"
-            app:isSquare="true"
-            app:radius="6dp" />
-```
-
-NOTE
------
-
-Widgets also contains some added fonts with the library,
-```java
-Poppins.ttf
-Poppins_Black.ttf
-Poppins_Bold.ttf
-Poppins_ExtraBold.ttf
-Poppins_Italic.ttf
-Poppins_Light.ttf
-Poppins_SemiBold.ttf
-Poppins_Thin.ttf
-```
 
 ## Author
 
