@@ -78,7 +78,11 @@
             android:title="@string/menu_spotlight" />
         <item
             android:id="@+id/nav_paper_onboarding"
-            android:title="@string/menu_paper_onboarding"/>
+            android:title="@string/menu_paper_onboarding" />
+
+        <item
+            android:id="@+id/nav_expanding_collection"
+            android:title="@string/menu_expanding_collection" />
 
     </group>
 </menu>

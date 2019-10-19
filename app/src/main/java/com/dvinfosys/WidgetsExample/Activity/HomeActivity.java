@@ -18,6 +18,7 @@ import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ColorPickerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CountdownViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
+import com.dvinfosys.WidgetsExample.Fragments.ExpandingCollectionFragment;
 import com.dvinfosys.WidgetsExample.Fragments.FoldingCellFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ImageviewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
@@ -36,8 +37,7 @@ import com.dvinfosys.WidgetsExample.MainActivity;
 import com.dvinfosys.WidgetsExample.R;
 import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
 
-public class HomeActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -131,6 +131,8 @@ public class HomeActivity extends AppCompatActivity
             fragment = new SpotlightFragment();
         } else if (id == R.id.nav_paper_onboarding) {
             fragment = new PaperOnboardingFragment();
+        } else if (id == R.id.nav_expanding_collection) {
+            fragment = new ExpandingCollectionFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
