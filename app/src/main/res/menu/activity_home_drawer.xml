@@ -83,6 +83,9 @@
         <item
             android:id="@+id/nav_expanding_collection"
             android:title="@string/menu_expanding_collection" />
+        <item
+            android:id="@+id/nav_auto_select"
+            android:title="@string/menu_auto_select" />
 
     </group>
 </menu>

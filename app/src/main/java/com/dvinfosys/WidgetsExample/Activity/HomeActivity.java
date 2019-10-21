@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.dvinfosys.WidgetsExample.Fragments.AutoSelectFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ColorPickerFragment;
@@ -133,6 +134,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             fragment = new PaperOnboardingFragment();
         } else if (id == R.id.nav_expanding_collection) {
             fragment = new ExpandingCollectionFragment();
+        }else if (id==R.id.nav_auto_select){
+            fragment=new AutoSelectFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

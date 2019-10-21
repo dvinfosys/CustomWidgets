@@ -74,5 +74,6 @@
     <string name="menu_spotlight">Spotlight</string>
     <string name="menu_paper_onboarding">Paper Onboarding</string>
     <string name="menu_expanding_collection">Expanding Collection</string>
+    <string name="menu_auto_select">Auto Select</string>
 
 </resources>
