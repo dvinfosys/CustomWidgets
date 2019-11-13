@@ -4,7 +4,6 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Spannable;
@@ -21,8 +20,6 @@ import com.dvinfosys.widgets.ColorPicker.ColorPickerDialogListener;
 import com.dvinfosys.widgets.CountdownView.CountdownView;
 import com.dvinfosys.widgets.NumberCounter.Counter;
 import com.dvinfosys.widgets.ToastView.ToastView;
-import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
-import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard;
 
 import static android.graphics.Typeface.BOLD_ITALIC;
 
@@ -49,14 +46,10 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
         numberCounter.setPlusButtonColor(Color.parseColor("#4CAF50"));
         numberCounter.setMinusButtonColor(Color.parseColor("#D50000"));
 
-        CountdownView mCvCountdownViewTest1 = (CountdownView)findViewById(R.id.countdown_view);
+        CountdownView mCvCountdownViewTest1 = findViewById(R.id.countdown_view);
         mCvCountdownViewTest1.setTag("test1");
-        long time1 = (long)5 * 60 * 60 * 1000;
+        long time1 = (long) 5 * 60 * 60 * 1000;
         mCvCountdownViewTest1.start(time1);
-
-        VPVideoPlayerStandard videoPlayerStandard = findViewById(R.id.vp_videoplayer);
-        videoPlayerStandard.setUp("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", VPVideoPlayerStandard.SCREEN_LAYOUT_NORMAL, "Elephant Dream");
-        videoPlayerStandard.thumbImageView.setImageURI(Uri.parse("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg"));
 
         btnErrorToastView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -143,16 +136,13 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
 
     @Override
     public void onBackPressed() {
-        if (VPVideoPlayer.backPress()) {
-            return;
-        }
+
         super.onBackPressed();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        VPVideoPlayer.releaseAllVideos();
     }
 
     @Override

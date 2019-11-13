@@ -196,12 +196,6 @@
             app:isSquare="true"
             app:radius="6dp" />
 
-
-        <com.dvinfosys.widgets.VideoPlayer.VPVideoPlayerStandard
-            android:id="@+id/vp_videoplayer"
-            android:layout_width="match_parent"
-            android:layout_height="250dp" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

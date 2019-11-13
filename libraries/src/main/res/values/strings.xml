@@ -22,4 +22,7 @@
     <string name="start_search">Start search</string>
     <string name="search">Search...</string>
     <string name="empty_list">No Items Found</string>
+    <string name="dialog_default_title">Here\\\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
 </resources>

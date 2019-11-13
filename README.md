@@ -43,7 +43,7 @@ you could customize following UI controls in your Android application
 * [Seekbar](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/SeekbarFragment.java)
 * [ProgressView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ProgressViewFragment.java)
 * [AutoSelect](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/AutoSelectFragment.java)
-
+* [DAlert Dialog](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/DalertFragment.java)
 
 ## Author
 

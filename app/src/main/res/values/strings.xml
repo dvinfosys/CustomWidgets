@@ -75,5 +75,14 @@
     <string name="menu_paper_onboarding">Paper Onboarding</string>
     <string name="menu_expanding_collection">Expanding Collection</string>
     <string name="menu_auto_select">Auto Select</string>
+    <string name="menu_alert_dialog">DAlert Dialog</string>
+    <string name="show_material_progress">Show Materail progress</string>
+    <string name="a_basic_message">Basic Dialog</string>
+    <string name="a_title_with_a_text_under">Title with text</string>
+    <string name="show_error_message">Error dialog</string>
+    <string name="a_success_message">Success dialog</string>
+    <string name="a_warning_message_with_confirm_button">Warning with confirm button</string>
+    <string name="warning_message_with_cancel_confirm_button">Warninig with cancel and confirm buttion</string>
+    <string name="message_with_custom_icon">Massage with custom icon</string>
 
 </resources>

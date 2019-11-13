@@ -18,6 +18,7 @@ import com.dvinfosys.WidgetsExample.Fragments.ButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ColorPickerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CountdownViewFragment;
+import com.dvinfosys.WidgetsExample.Fragments.DAlertFragment;
 import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ExpandingCollectionFragment;
 import com.dvinfosys.WidgetsExample.Fragments.FoldingCellFragment;
@@ -33,10 +34,8 @@ import com.dvinfosys.WidgetsExample.Fragments.SwitchFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ToastViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ToggleButtonFragment;
-import com.dvinfosys.WidgetsExample.Fragments.VPVideoPlayerFragment;
 import com.dvinfosys.WidgetsExample.MainActivity;
 import com.dvinfosys.WidgetsExample.R;
-import com.dvinfosys.widgets.VideoPlayer.VPVideoPlayer;
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -58,9 +57,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onBackPressed() {
-        if (VPVideoPlayer.backPress()) {
-            return;
-        }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -106,8 +102,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             fragment = new RadioButtonFragment();
         } else if (id == R.id.nav_progressview) {
             fragment = new ProgressViewFragment();
-        } else if (id == R.id.nav_video_player) {
-            fragment = new VPVideoPlayerFragment();
         } else if (id == R.id.nav_seekbar) {
             fragment = new SeekbarFragment();
         } else if (id == R.id.nav_toastview) {
@@ -134,8 +128,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             fragment = new PaperOnboardingFragment();
         } else if (id == R.id.nav_expanding_collection) {
             fragment = new ExpandingCollectionFragment();
-        }else if (id==R.id.nav_auto_select){
-            fragment=new AutoSelectFragment();
+        } else if (id == R.id.nav_auto_select) {
+            fragment = new AutoSelectFragment();
+        } else if (id == R.id.nav_alert_dialog) {
+            fragment = new DAlertFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
