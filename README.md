@@ -1,5 +1,5 @@
 # Android Widgets
-
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 <img src="https://github.com/dvinfosys/CustomWidgets/blob/master/Screenshort/logo.png?raw=true" align="left" hspace="10" vspace="10"></a>
 
 CustomWidgets is a library use Android UI controls such as TextView, Button, EditText, ChechBox, RadioButton, Switch, ToggleButton, CircleImageView, SeekBar,Color Picker,Video Player,CustomToast,NumberCounter,RoundedImageView,CountdownView etc with Custom typefaces.
@@ -43,7 +43,7 @@ you could customize following UI controls in your Android application
 * [Seekbar](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/SeekbarFragment.java)
 * [ProgressView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ProgressViewFragment.java)
 * [AutoSelect](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/AutoSelectFragment.java)
-* [DAlert Dialog](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/DalertFragment.java)
+* [DAlert Dialog](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/DAlertFragment.java)
 
 ## Author
 

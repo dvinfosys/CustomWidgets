@@ -29,6 +29,7 @@ import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SearchableSpinnerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
+import com.dvinfosys.WidgetsExample.Fragments.SpinWheelFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SpotlightFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SwitchFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
@@ -132,6 +133,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             fragment = new AutoSelectFragment();
         } else if (id == R.id.nav_alert_dialog) {
             fragment = new DAlertFragment();
+        }else if (id==R.id.nav_spin_wheel){
+            fragment=new SpinWheelFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

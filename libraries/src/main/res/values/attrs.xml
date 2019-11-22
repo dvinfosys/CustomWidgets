@@ -493,4 +493,17 @@
         <attr name="pivotY" format="fraction" />
     </declare-styleable>
 
+    <!--SpinWheel View-->
+    <declare-styleable name="SpinWheelView">
+        <attr name="swvBackgroundColor" format="color"/>
+        <attr name="swvCursor" format="reference" />
+        <attr name="swvCenterImage" format="reference" />
+        <attr name="swvEdgeColor" format="color" />
+        <attr name="swvEdgeWidth" format="integer" />
+        <attr name="swvTopTextColor" format="color" />
+        <attr name="swvTopTextPadding" format="dimension" />
+        <attr name="swvTopTextSize" format="dimension" />
+        <attr name="swvSecondaryTextSize" format="dimension" />
+    </declare-styleable>
+
 </resources>

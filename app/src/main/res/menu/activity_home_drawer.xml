@@ -71,6 +71,9 @@
         <item
             android:id="@+id/nav_folding_cell"
             android:title="@string/menu_folding_cell" />
+        <item
+            android:id="@+id/nav_spin_wheel"
+            android:title="@string/menu_spin_wheel" />
 
         <item
             android:id="@+id/nav_searchable_spinner"

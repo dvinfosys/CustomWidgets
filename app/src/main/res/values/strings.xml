@@ -84,5 +84,6 @@
     <string name="a_warning_message_with_confirm_button">Warning with confirm button</string>
     <string name="warning_message_with_cancel_confirm_button">Warninig with cancel and confirm buttion</string>
     <string name="message_with_custom_icon">Massage with custom icon</string>
+    <string name="menu_spin_wheel">Spin Wheel</string>
 
 </resources>
