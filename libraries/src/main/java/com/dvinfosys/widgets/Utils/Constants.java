@@ -1,6 +1,10 @@
 package com.dvinfosys.widgets.Utils;
 
+import android.app.Activity;
 import android.content.Context;
+import android.graphics.Point;
+import android.util.Log;
+import android.view.Display;
 
 public class Constants {
 
@@ -36,5 +40,21 @@ public class Constants {
         }
 
         return retMillisecondStr;
+    }
+
+    public static int getScreenHeight(Activity activity) {
+        try {
+            Display display = activity.getWindowManager().getDefaultDisplay();
+            Point size = new Point();
+            display.getSize(size);
+            return size.y;
+        } catch (Exception e) {
+            Log.e(activity.getClass().getName(), e.getMessage());
+        }
+        return 0;
+    }
+
+    public static int getFooterHeight(Activity activity, int height) {
+        return getScreenHeight(activity) - height;
     }
 }

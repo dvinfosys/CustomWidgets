@@ -85,5 +85,6 @@
     <string name="warning_message_with_cancel_confirm_button">Warninig with cancel and confirm buttion</string>
     <string name="message_with_custom_icon">Massage with custom icon</string>
     <string name="menu_spin_wheel">Spin Wheel</string>
+    <string name="menu_resize_recycler">Recycler Resize</string>
 
 </resources>
