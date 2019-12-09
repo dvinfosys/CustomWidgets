@@ -14,68 +14,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
-            android:layout_width="wrap_content"
+        <com.dvinfosys.widgets.TextView.CustomTextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Normal TextView" />
-
-        <com.dvinfosys.widgets.TextView.HeadingTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="heading TextView" />
-
-        <com.dvinfosys.widgets.TextView.BlackTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Black TextView" />
-
-        <com.dvinfosys.widgets.TextView.ExtraBoldTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="ExtraBold TextView" />
-
-        <com.dvinfosys.widgets.TextView.ItalicTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Italic TextView" />
-
-        <com.dvinfosys.widgets.TextView.LightTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Light TextView" />
-
-        <com.dvinfosys.widgets.TextView.SemiBoldTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="SemiBold TextView" />
-
-        <com.dvinfosys.widgets.TextView.ThinTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Thin TextView" />
-
-        <com.dvinfosys.widgets.TextView.MediumTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Medium TextView" />
+            android:gravity="center"
+            android:text="Custom TextVeiw"
+            app:font_name="@string/font_name" />
 
         <com.dvinfosys.widgets.TextView.GradientTextView
             android:layout_width="wrap_content"
@@ -85,15 +30,6 @@
             android:text="Gradient TextView"
             app:gradientEnd="@color/successColor"
             app:gradientStart="@color/color_blue" />
-
-        <com.dvinfosys.widgets.TextView.GradientBoldTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="GradientBold TextView"
-            app:endColor="#F44336"
-            app:startColor="#F59C96" />
 
         <LinearLayout
             android:layout_width="match_parent"

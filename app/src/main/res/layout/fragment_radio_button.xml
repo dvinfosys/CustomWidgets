@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,76 +8,12 @@
     android:orientation="vertical"
     tools:context=".Fragments.RadioButtonFragment">
 
-    <com.dvinfosys.widgets.RadioButton.NormalRadioButton
+    <com.dvinfosys.widgets.RadioButton.CustomRadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Normal RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.HeadingRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="heading RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.BlackRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Black RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.ExtraBoldRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="ExtraBold RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.ItalicRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Italic RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.LightRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Light RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.SemiBoldRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="SemiBold RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.ThinRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Thin RadioButton"
-        android:textAllCaps="false" />
-
-    <com.dvinfosys.widgets.RadioButton.MediumRadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Medium RadioButton"
-        android:textAllCaps="false" />
+        android:gravity="center"
+        android:text="Custom Radio Button"
+        app:font_name="@string/font_name" />
 
 </LinearLayout>

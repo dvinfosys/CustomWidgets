@@ -21,7 +21,7 @@
         app:textColor="#000000"
         app:textSize="12dp" />
 
-    <com.dvinfosys.widgets.TextView.NormalTextView
+    <com.dvinfosys.widgets.TextView.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -44,7 +44,7 @@
         app:textColor="#000000"
         app:textSize="12dp" />
 
-    <com.dvinfosys.widgets.TextView.NormalTextView
+    <com.dvinfosys.widgets.TextView.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -66,7 +66,7 @@
         app:textColor="@color/color_blue"
         app:textSize="12dp" />
 
-    <com.dvinfosys.widgets.TextView.NormalTextView
+    <com.dvinfosys.widgets.TextView.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -86,7 +86,7 @@
         app:textColor="#000000"
         app:textSize="12dp" />
 
-    <com.dvinfosys.widgets.TextView.NormalTextView
+    <com.dvinfosys.widgets.TextView.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -100,7 +100,7 @@
         android:layout_gravity="center"
         android:layout_margin="8dp" />
 
-    <com.dvinfosys.widgets.TextView.NormalTextView
+    <com.dvinfosys.widgets.TextView.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

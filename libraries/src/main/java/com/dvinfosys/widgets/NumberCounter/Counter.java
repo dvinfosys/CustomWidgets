@@ -16,6 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.dvinfosys.widgets.R;
+import com.dvinfosys.widgets.TextView.CustomTextView;
 
 import java.util.Locale;
 
@@ -44,7 +45,7 @@ public class Counter extends LinearLayout {
     private boolean displayingInteger = false;
 
     private RepeatListener.ReleaseCallback releaseCallback;
-    private TextView value;
+    private CustomTextView value;
     private ImageButton plusButton, minusButton;
     private Drawable plusIcon, minusIcon;
 

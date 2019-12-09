@@ -21,7 +21,7 @@
             android:layout_margin="10dp"
             android:src="@drawable/demo_image" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -36,7 +36,7 @@
             android:layout_margin="10dp"
             android:src="@drawable/demo_image" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -54,7 +54,7 @@
             app:borderColor="@color/color_blue"
             android:src="@drawable/demo_image" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

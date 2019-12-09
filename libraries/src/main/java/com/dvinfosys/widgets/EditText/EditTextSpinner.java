@@ -55,7 +55,7 @@ public class EditTextSpinner extends AppCompatEditText implements View.OnClickLi
         this.setOnClickListener(this);
         if (attrs != null) {
             TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.CustomEditText);
-            String getFontName = array.getString(R.styleable.CustomEditText_edittext_font);
+            String getFontName = array.getString(R.styleable.CustomEditText_font_name);
             if (getFontName != null) {
                 try {
                     Typeface typeface = Typeface.createFromAsset(context.getAssets(), "fonts/" + getFontName);

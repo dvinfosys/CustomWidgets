@@ -8,6 +8,7 @@ import android.widget.EditText;
 
 import com.dvinfosys.widgets.Exception.CustomException;
 import com.dvinfosys.widgets.R;
+import com.dvinfosys.widgets.Utils.TextFontCache;
 
 public class CustomEditText extends EditText {
     private Context context;
@@ -44,11 +45,18 @@ public class CustomEditText extends EditText {
     private void init(AttributeSet attrs) throws CustomException {
         if (attrs != null) {
             TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.CustomEditText);
-            String getFontName = array.getString(R.styleable.CustomEditText_edittext_font);
+            String getFontName = array.getString(R.styleable.CustomEditText_font_name);
             if (getFontName != null) {
                 try {
                     Typeface typeface = Typeface.createFromAsset(context.getAssets(), "fonts/" + getFontName);
                     setTypeface(typeface);
+                } catch (Exception e) {
+                    throw new CustomException("Font Not Found Exception");
+                }
+            }else {
+                try {
+                    Typeface customFont = TextFontCache.getTypeface("Poppins.ttf", context);
+                    setTypeface(customFont);
                 } catch (Exception e) {
                     throw new CustomException("Font Not Found Exception");
                 }

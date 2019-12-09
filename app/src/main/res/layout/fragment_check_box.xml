@@ -3,71 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="center"
     android:orientation="vertical"
     tools:context=".Fragments.CheckBoxFragment">
 
-    <com.dvinfosys.widgets.CheckBox.NormalCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Normal CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.HeadingCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Heading CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.BlackCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Black CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.ExtraBoldCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="ExtraBold CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.ItalicCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Italic CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.LightCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Light CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.SemiBoldCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="SemiBold CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.ThinCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Thin CheckBox" />
-
-    <com.dvinfosys.widgets.CheckBox.MediumCheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:text="Medium CheckBox" />
+   <com.dvinfosys.widgets.CheckBox.CustomCheckBox
+       android:layout_width="wrap_content"
+       app:font_name="@string/font_name"
+       android:text="Custom Checkbox"
+       android:layout_height="wrap_content"/>
 
 </LinearLayout>

@@ -277,7 +277,7 @@ public class RoundButtonHelper {
             dest.writeValue(this.height);
         }
 
-        public static final Parcelable.Creator<Builder> CREATOR = new Parcelable.Creator<Builder>() {
+        public static final Creator<Builder> CREATOR = new Creator<Builder>() {
             @Override
             public Builder createFromParcel(Parcel source) {
                 return new Builder(source);

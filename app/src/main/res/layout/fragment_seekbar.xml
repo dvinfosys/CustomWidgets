@@ -42,7 +42,7 @@
             app:sb_track_progress_size="4dp" />
 
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -54,7 +54,7 @@
             app:sb_indicator_text_size="28sp"
             app:sb_progress="50" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -68,7 +68,7 @@
             app:sb_show_indicator="none"
             app:sb_show_thumb_text="true" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -89,7 +89,7 @@
                 app:sb_thumb_text_color="@color/color_pink"
                 app:sb_track_progress_color="@color/color_blue" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -108,7 +108,7 @@
 
 
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -125,7 +125,7 @@
             app:sb_tick_texts_array="@array/last_next_length_2"
             app:sb_ticks_count="2" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -142,7 +142,7 @@
                 app:sb_thumb_drawable="@drawable/thumb"
                 app:sb_ticks_count="2" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -158,7 +158,7 @@
             app:sb_tick_texts_color="@color/color_gray"
             app:sb_ticks_count="2" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -175,7 +175,7 @@
             app:sb_tick_texts_typeface="serif"
             app:sb_ticks_count="2" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -193,7 +193,7 @@
             app:sb_tick_texts_color="@color/color_gray"
             app:sb_ticks_count="2" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -207,31 +207,31 @@
                 app:sb_thumb_drawable="@drawable/selector_thumb_ripple_drawable"
                 app:sb_thumb_size="26dp" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="11. continuous listener" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:id="@+id/states"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:id="@+id/progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:id="@+id/progress_float"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:id="@+id/from_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -246,7 +246,7 @@
             app:sb_thumb_drawable="@drawable/selector_thumb_ripple_drawable"
             app:sb_thumb_size="26dp" />
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.TextView.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"

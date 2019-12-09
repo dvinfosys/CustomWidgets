@@ -15,87 +15,12 @@
         android:orientation="vertical"
         android:padding="10dp">
 
-        <com.dvinfosys.widgets.TextView.NormalTextView
+        <com.dvinfosys.widgets.Button.CustomButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Normal Button" />
-
-        <com.dvinfosys.widgets.Button.NormalButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Normal Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.HeadingButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="heading Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.BlackButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Black Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.ExtraBoldButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="ExtraBold Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.ItalicButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Italic Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.LightButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Light Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.SemiBoldButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="SemiBold Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.ThinButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Thin Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.Button.MediumButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Medium Button"
-            android:textAllCaps="false" />
-
-        <com.dvinfosys.widgets.TextView.NormalTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2. Round Button" />
+            android:padding="10dp"
+            android:text="Custom Button"
+            app:font_name="@string/font_name" />
 
         <TextView
             android:layout_width="wrap_content"

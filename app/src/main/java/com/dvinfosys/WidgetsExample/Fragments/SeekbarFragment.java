@@ -13,7 +13,7 @@ import com.dvinfosys.WidgetsExample.R;
 import com.dvinfosys.widgets.SeekBar.CustomSeekBar;
 import com.dvinfosys.widgets.SeekBar.OnSeekChangeListener;
 import com.dvinfosys.widgets.SeekBar.SeekParams;
-import com.dvinfosys.widgets.TextView.NormalTextView;
+import com.dvinfosys.widgets.TextView.CustomTextView;
 
 public class SeekbarFragment extends Fragment {
 
@@ -33,13 +33,13 @@ public class SeekbarFragment extends Fragment {
         thumb_drawable.setThumbDrawable(getResources().getDrawable(R.mipmap.ic_launcher));
 
         CustomSeekBar listenerSeekBar = view.findViewById(R.id.listener);
-        final NormalTextView states = view.findViewById(R.id.states);
+        final CustomTextView states = view.findViewById(R.id.states);
         states.setText("states: ");
-        final NormalTextView progress = view.findViewById(R.id.progress);
+        final CustomTextView progress = view.findViewById(R.id.progress);
         progress.setText("progress: " + listenerSeekBar.getProgress());
-        final NormalTextView progress_float = view.findViewById(R.id.progress_float);
+        final CustomTextView progress_float = view.findViewById(R.id.progress_float);
         progress_float.setText("progress_float: " + listenerSeekBar.getProgressFloat());
-        final NormalTextView from_user = view.findViewById(R.id.from_user);
+        final CustomTextView from_user = view.findViewById(R.id.from_user);
         from_user.setText("from_user: ");
         listenerSeekBar.setOnSeekChangeListener(new OnSeekChangeListener() {
             @Override

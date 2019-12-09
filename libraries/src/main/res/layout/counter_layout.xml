@@ -16,7 +16,7 @@
         android:foreground="?android:attr/selectableItemBackground"
         android:src="@drawable/minus" />
 
-    <com.dvinfosys.widgets.TextView.NormalTextView
+    <com.dvinfosys.widgets.TextView.CustomTextView
         android:id="@+id/value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

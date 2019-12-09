@@ -2,7 +2,6 @@ package com.dvinfosys.WidgetsExample.Adapter;
 
 import android.content.Context;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -95,6 +94,10 @@ public class SimpleListAdapter extends BaseAdapter implements Filterable, ISpinn
         return mStringFilter;
     }
 
+    public enum ItemViewType {
+        ITEM, NO_SELECTION_ITEM
+    }
+
     public class StringFilter extends Filter {
 
         @Override
@@ -126,9 +129,5 @@ public class SimpleListAdapter extends BaseAdapter implements Filterable, ISpinn
     private class ItemView {
         public ImageView mImageView;
         public TextView mTextView;
-    }
-
-    public enum ItemViewType {
-        ITEM, NO_SELECTION_ITEM
     }
 }

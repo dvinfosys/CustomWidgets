@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.dvinfosys.widgets.Exception.CustomException;
 import com.dvinfosys.widgets.R;
+import com.dvinfosys.widgets.Utils.TextFontCache;
 
 /**
  * Created by DV Bhuva on 19/06/2019.
@@ -54,6 +55,13 @@ public class CustomTextView extends TextView {
                 try {
                     Typeface typeface = Typeface.createFromAsset(context.getAssets(), "fonts/" + getFontName);
                     setTypeface(typeface);
+                } catch (Exception e) {
+                    throw new CustomException("Font Not Found Exception");
+                }
+            }else {
+                try {
+                    Typeface customFont = TextFontCache.getTypeface("Poppins.ttf", context);
+                    setTypeface(customFont);
                 } catch (Exception e) {
                     throw new CustomException("Font Not Found Exception");
                 }

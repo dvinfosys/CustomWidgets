@@ -88,5 +88,6 @@
     <string name="menu_resize_recycler">Recycler Resize</string>
     <string name="menu_input_code">InputCode</string>
     <string name="menu_sticker">StickerView</string>
+    <string name="font_name">Smoothy.otf</string>
 
 </resources>

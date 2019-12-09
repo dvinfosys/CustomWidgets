@@ -12,13 +12,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.dvinfosys.widgets.TextView.HeadingTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="heading TextView" />
 
-        <com.dvinfosys.widgets.EditText.NormalEditText
+        <com.dvinfosys.widgets.EditText.CustomEditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -26,7 +21,7 @@
             android:hint="Enter your name"
             android:padding="8dp" />
 
-        <com.dvinfosys.widgets.Button.NormalButton
+        <com.dvinfosys.widgets.Button.CustomButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -34,21 +29,21 @@
             android:text="Normal Button"
             android:textAllCaps="false" />
 
-        <com.dvinfosys.widgets.RadioButton.NormalRadioButton
+        <com.dvinfosys.widgets.RadioButton.CustomRadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
             android:text="Normal RadioButton" />
 
-        <com.dvinfosys.widgets.CheckBox.NormalCheckBox
+        <com.dvinfosys.widgets.CheckBox.CustomCheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
             android:text="Normal CheckBox" />
 
-        <com.dvinfosys.widgets.Switch.NormalSwitch
+        <com.dvinfosys.widgets.Switch.CustomSwitch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -56,7 +51,7 @@
             android:padding="8dp"
             android:text="Normal Switch" />
 
-        <com.dvinfosys.widgets.ToggleButton.NormalToggleButton
+        <com.dvinfosys.widgets.ToggleButton.CustomToggleButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -110,10 +105,18 @@
 
         <com.dvinfosys.widgets.Button.CustomButton
             android:layout_width="wrap_content"
+            android:id="@+id/btn_color_picker"
+            android:text="Color Picker"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <com.dvinfosys.widgets.Button.CustomButton
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Custom Button"
-            app:button_font="Smoothy.otf" />
+            app:font_name="Smoothy.otf" />
 
         <com.dvinfosys.widgets.TextView.GradientTextView
             android:layout_width="match_parent"
@@ -124,30 +127,6 @@
             app:gradientEnd="#6673E7"
             app:gradientStart="#FF0000" />
 
-        <com.dvinfosys.widgets.TextView.GradientBoldTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Gradient Bold TextView"
-            android:textSize="18dp"
-            app:endColor="@color/colorPrimaryDark"
-            app:startColor="@color/colorAccent" />
-
-        <com.dvinfosys.widgets.TextView.MediumTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:text="MediumTextView" />
-
-        <com.dvinfosys.widgets.Button.NormalButton
-            android:id="@+id/btn_color_picker"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"
-            android:text="Color Picker"
-            android:textAllCaps="false" />
 
         <com.dvinfosys.widgets.CountdownView.CountdownView
             android:id="@+id/countdown_view"

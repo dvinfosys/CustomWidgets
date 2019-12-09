@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.dvinfosys.widgets.Button.NormalButton;
+import com.dvinfosys.widgets.Button.CustomButton;
 import com.dvinfosys.widgets.ColorPicker.ColorPickerDialog;
 import com.dvinfosys.widgets.ColorPicker.ColorPickerDialogListener;
 import com.dvinfosys.widgets.CountdownView.CountdownView;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements ColorPickerDialog
     private static final int DIALOG_ID = 0;
     private Context context;
     private Button btnErrorToastView, btnSuccessToastView, btnInfoToastView, btnWarringToastView;
-    private NormalButton btnColorPicker;
+    private CustomButton btnColorPicker;
     private Counter numberCounter;
 
     @Override
