@@ -1,4 +1,4 @@
-# Android Widgets
+# Android Custom Widgets
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 <img src="https://github.com/dvinfosys/CustomWidgets/blob/master/Screenshort/logo.png?raw=true" align="left" hspace="10" vspace="10"></a>
 
@@ -44,6 +44,9 @@ you could customize following UI controls in your Android application
 * [ProgressView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ProgressViewFragment.java)
 * [AutoSelect](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/AutoSelectFragment.java)
 * [DAlert Dialog](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/DAlertFragment.java)
+* [RecyclerResize](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/RecyclerResizeFragment.java)
+* [InputCode (Pincode)](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/InputCodeFragment.java)
+* [StickerView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/StickerViewFragment.java)
 
 ## Author
 
