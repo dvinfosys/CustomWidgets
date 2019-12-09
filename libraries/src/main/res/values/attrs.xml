@@ -506,4 +506,28 @@
         <attr name="swvSecondaryTextSize" format="dimension" />
     </declare-styleable>
 
+    <!--InputCode-->
+    <declare-styleable name="InputCode">
+        <attr name="underline_color"
+            format="color"/>
+        <attr name="underline_selected_color"
+            format="color"/>
+        <attr name="hint_color"
+            format="color"/>
+        <attr name="text_color"
+            format="color"/>
+        <attr name="hint_text"
+            format="string"/>
+        <attr name="codes"
+            format="integer"/>
+    </declare-styleable>
+
+    <!--StickerView-->
+    <declare-styleable name="StickerView">
+        <attr name="showIcons" format="boolean" />
+        <attr name="showBorder" format="boolean" />
+        <attr name="bringToFrontCurrentSticker" format="boolean" />
+        <attr name="sv_borderColor" format="color"/>
+        <attr name="borderAlpha"/>
+    </declare-styleable>
 </resources>

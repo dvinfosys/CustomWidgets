@@ -94,6 +94,13 @@
         <item
             android:id="@+id/nav_resize_recycler"
             android:title="@string/menu_resize_recycler" />
+        <item
+            android:id="@+id/nav_input_code"
+            android:title="@string/menu_input_code" />
+
+        <item
+            android:id="@+id/nav_sticker"
+            android:title="@string/menu_sticker" />
 
     </group>
 </menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Fragments.InputCodeFragment">
+
+    <com.dvinfosys.widgets.InputCode.InputCode
+        android:id="@+id/pairing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:hint_text="Pairing code" />
+
+    <com.dvinfosys.widgets.InputCode.InputCode
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:codes="4"
+        app:hint_color="#77ce9d"
+        app:hint_text="Pin code"
+        app:text_color="#b12eff"
+        app:underline_color="#457ad1"
+        app:underline_selected_color="#9e1ace" />
+
+    <com.dvinfosys.widgets.InputCode.InputCode
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:codes="8"
+        app:hint_color="#ce1087"
+        app:hint_text="Cheat code"
+        app:text_color="#5c282c"
+        app:underline_color="#d19385"
+        app:underline_selected_color="#ce3a47" />
+
+    <com.dvinfosys.widgets.InputCode.InputCode
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:codes="10"
+        app:hint_color="#03A9F4"
+        app:hint_text="Hash code"
+        app:text_color="#212121"
+        app:underline_color="#03A9F4"
+        app:underline_selected_color="#3F51B5" />
+</LinearLayout>

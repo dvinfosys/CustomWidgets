@@ -86,5 +86,7 @@
     <string name="message_with_custom_icon">Massage with custom icon</string>
     <string name="menu_spin_wheel">Spin Wheel</string>
     <string name="menu_resize_recycler">Recycler Resize</string>
+    <string name="menu_input_code">InputCode</string>
+    <string name="menu_sticker">StickerView</string>
 
 </resources>

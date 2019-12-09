@@ -23,6 +23,7 @@ import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ExpandingCollectionFragment;
 import com.dvinfosys.WidgetsExample.Fragments.FoldingCellFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ImageviewFragment;
+import com.dvinfosys.WidgetsExample.Fragments.InputCodeFragment;
 import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
 import com.dvinfosys.WidgetsExample.Fragments.PaperOnboardingFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
@@ -32,6 +33,7 @@ import com.dvinfosys.WidgetsExample.Fragments.SearchableSpinnerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SpinWheelFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SpotlightFragment;
+import com.dvinfosys.WidgetsExample.Fragments.StickerViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SwitchFragment;
 import com.dvinfosys.WidgetsExample.Fragments.TextViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ToastViewFragment;
@@ -138,6 +140,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             fragment = new SpinWheelFragment();
         } else if (id == R.id.nav_resize_recycler) {
             fragment = new RecyclerResizeFragment();
+        } else if (id == R.id.nav_input_code) {
+            fragment = new InputCodeFragment();
+        } else if (id == R.id.nav_sticker) {
+            fragment = new StickerViewFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
