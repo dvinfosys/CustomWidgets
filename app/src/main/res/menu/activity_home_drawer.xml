@@ -102,5 +102,8 @@
             android:id="@+id/nav_sticker"
             android:title="@string/menu_sticker" />
 
+        <item android:id="@+id/nav_msearchbar"
+            android:title="@string/menu_msearch"/>
+
     </group>
 </menu>

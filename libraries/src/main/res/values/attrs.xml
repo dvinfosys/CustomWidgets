@@ -531,4 +531,49 @@
         <attr name="sv_borderColor" format="color"/>
         <attr name="borderAlpha"/>
     </declare-styleable>
+
+    <!--Material Searchbar-->
+    <declare-styleable name="MSearchBar">
+        <attr name="ms_speechMode" format="boolean"/>
+        <attr name="ms_maxSuggestionsCount" format="integer"/>
+        <attr name="ms_navIconEnabled" format="boolean"/>
+        <attr name="ms_roundedSearchBarEnabled" format="boolean"/>
+        <attr name="ms_menuDividerEnabled" format="boolean"/>
+        <attr name="ms_dividerColor" format="color"/>
+        <attr name="ms_searchBarColor" format="color"/>
+
+        //Icons
+        <attr name="ms_menuIconDrawable" format="reference"/>
+        <attr name="ms_searchIconDrawable" format="reference"/>
+        <attr name="ms_speechIconDrawable" format="reference"/>
+        <attr name="ms_backIconDrawable" format="reference"/>
+        <attr name="ms_clearIconDrawable" format="reference"/>
+        <attr name="ms_navIconTint" format="color"/>
+        <attr name="ms_menuIconTint" format="color"/>
+        <attr name="ms_searchIconTint" format="color"/>
+        <attr name="ms_backIconTint" format="color"/>
+        <attr name="ms_clearIconTint" format="color"/>
+        <attr name="ms_navIconUseTint" format="boolean"/>
+        <attr name="ms_menuIconUseTint" format="boolean"/>
+        <attr name="ms_searchIconUseTint" format="boolean"/>
+        <attr name="ms_backIconUseTint" format="boolean"/>
+        <attr name="ms_clearIconUseTint" format="boolean"/>
+        <attr name="ms_borderlessRippleEnabled" format="boolean"/>
+
+        //Text
+        <attr name="ms_hint" format="string"/>
+        <attr name="ms_placeholder" format="string"/>
+        <attr name="ms_textColor" format="color"/>
+        <attr name="ms_hintColor" format="color"/>
+        <attr name="ms_placeholderColor" format="color"/>
+        <attr name="ms_textCursorTint" format="color"/>
+        <attr name="ms_leftTextSelectorDrawable" format="reference"/>
+        <attr name="ms_middleTextSelectorDrawable" format="reference"/>
+        <attr name="ms_rightTextSelectorDrawable" format="reference"/>
+        <attr name="ms_leftTextSelectorTint" format="color"/>
+        <attr name="ms_middleTextSelectorTint" format="color"/>
+        <attr name="ms_rightTextSelectorTint" format="color"/>
+        <attr name="ms_handlesTintEnabled" format="boolean"/>
+        <attr name="ms_highlightedTextColor" format="color"/>
+    </declare-styleable>
 </resources>

@@ -33,7 +33,6 @@ you could customize following UI controls in your Android application
 * [ToggleButton](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ToggleButtonFragment.java)
 * [CircleImageView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/ImageviewFragment.java)
 * [CustomSeekBar](https://github.com/dvinfosys/CustomWidgets/wiki/CustomSeekBar)
-* [VPVideoPlayer](https://github.com/dvinfosys/CustomWidgets/wiki/VPVideoPlayer)
 * [ToastView](https://github.com/dvinfosys/CustomWidgets/wiki/ToastView)
 * [Number Counter](https://github.com/dvinfosys/CustomWidgets/wiki/Number-Counter)
 * [CountdownView](https://github.com/dvinfosys/CustomWidgets/wiki/CountdownView)
@@ -47,6 +46,7 @@ you could customize following UI controls in your Android application
 * [RecyclerResize](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/RecyclerResizeFragment.java)
 * [InputCode (Pincode)](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/InputCodeFragment.java)
 * [StickerView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/StickerViewFragment.java)
+* [MSearchBar](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/MSearchbarFragment.java)
 
 ## Author
 

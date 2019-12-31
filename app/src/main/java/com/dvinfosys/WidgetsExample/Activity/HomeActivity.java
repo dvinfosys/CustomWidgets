@@ -24,6 +24,7 @@ import com.dvinfosys.WidgetsExample.Fragments.ExpandingCollectionFragment;
 import com.dvinfosys.WidgetsExample.Fragments.FoldingCellFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ImageviewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.InputCodeFragment;
+import com.dvinfosys.WidgetsExample.Fragments.MSearchbarFragment;
 import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
 import com.dvinfosys.WidgetsExample.Fragments.PaperOnboardingFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
@@ -144,6 +145,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             fragment = new InputCodeFragment();
         } else if (id == R.id.nav_sticker) {
             fragment = new StickerViewFragment();
+        }else if (id==R.id.nav_msearchbar){
+            fragment=new MSearchbarFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

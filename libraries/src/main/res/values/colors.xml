@@ -50,4 +50,39 @@
     <color name="underline_selected_color">#000</color>
     <color name="hintColor">#CCCCCC</color>
     <color name="textColor">#000</color>
+
+    <!--Material SearchBar Light Theme Colors-->
+    <color name="searchBarIconColor">#3a3a3a</color>
+
+    <color name="searchBarPrimaryColor">#FFFFFF</color>
+    <color name="searchBarCursorColor">#8000a1ff</color>
+    <color name="searchBarDividerColor">#1F000000</color>
+
+    <color name="searchBarNavIconTintColor">@color/searchBarIconColor</color>
+    <color name="searchBarMenuIconTintColor">@color/searchBarIconColor</color>
+    <color name="searchBarSearchIconTintColor">@color/searchBarIconColor</color>
+    <color name="searchBarClearIconTintColor">@color/searchBarIconColor</color>
+    <color name="searchBarBackIconTintColor">@color/searchBarIconColor</color>
+
+    <color name="searchBarTextColor">#DE000000</color>
+    <color name="searchBarHintColor">#42000000</color>
+    <color name="searchBarPlaceholderColor">#8A000000</color>
+    <color name="searchBarTextHighlightColor">#8000a1ff</color>
+
+    <color name="searchBarPrimaryColorDark">#303030</color>
+    <color name="searchBarDividerColorDark">#1FFFFFFF</color>
+
+  <!--Material SearchBar Dark Theme Colors-->
+    <color name="searchBarIconColorDark">#00a1ff</color>
+
+    <color name="searchBarNavIconTintColorDark">@color/searchBarIconColorDark</color>
+    <color name="searchBarMenuIconTintColorDark">@color/searchBarIconColorDark</color>
+    <color name="searchBarSearchIconTintColorDark">@color/searchBarIconColorDark</color>
+    <color name="searchBarClearIconTintColorDark">@color/searchBarIconColorDark</color>
+    <color name="searchBarBackIconTintColorDark">@color/searchBarIconColorDark</color>
+
+    <color name="searchBarTextColorDark">#DEFFFFFF</color>
+    <color name="searchBarHintColorDark">#42FFFFFF</color>
+    <color name="searchBarPlaceholderColorDark">#8AFFFFFF</color>
+    <color name="searchBarTextHighlightColorDark">#BF00a1ff</color>
 </resources>

@@ -89,5 +89,6 @@
     <string name="menu_input_code">InputCode</string>
     <string name="menu_sticker">StickerView</string>
     <string name="font_name">Smoothy.otf</string>
+    <string name="menu_msearch">MSeachbar</string>
 
 </resources>
