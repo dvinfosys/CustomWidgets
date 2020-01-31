@@ -47,6 +47,8 @@ you could customize following UI controls in your Android application
 * [InputCode (Pincode)](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/InputCodeFragment.java)
 * [StickerView](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/StickerViewFragment.java)
 * [MSearchBar](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/MSearchbarFragment.java)
+* [DToast](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/DToastFragment.java)
+* [RangeSeekbar](https://github.com/dvinfosys/CustomWidgets/blob/master/app/src/main/java/com/dvinfosys/WidgetsExample/Fragments/RangeSeekbarFragment.java)
 
 ## Author
 

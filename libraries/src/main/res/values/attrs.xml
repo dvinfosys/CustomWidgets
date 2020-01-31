@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="font_name" format="string" />
+    <attr name="textSize" format="dimension" />
     <declare-styleable name="CustomTextView">
         <attr name="font_name" />
     </declare-styleable>
@@ -166,7 +167,7 @@
         <attr name="plusIcon" format="reference" />
         <attr name="minusIcon" format="reference" />
         <attr name="textColor" format="color" />
-        <attr name="textSize" format="dimension" />
+        <attr name="textSize"/>
         <attr name="displayAsInteger" format="boolean" />
     </declare-styleable>
 
@@ -417,15 +418,15 @@
         <attr name="tb_colorBorder" format="color" />
         <attr name="tb_colorDisabled" format="color" />
         <attr name="tb_on" format="boolean" />
-        <attr name="android:textSize" />
+        <attr name="textSize" />
         <attr name="android:enabled" />
     </declare-styleable>
 
     <declare-styleable name="FoldingCell">
-        <attr name="animationDuration" format="integer"/>
-        <attr name="backSideColor" format="color"/>
-        <attr name="additionalFlipsCount" format="integer"/>
-        <attr name="cameraHeight" format="integer"/>
+        <attr name="animationDuration" format="integer" />
+        <attr name="backSideColor" format="color" />
+        <attr name="additionalFlipsCount" format="integer" />
+        <attr name="cameraHeight" format="integer" />
     </declare-styleable>
 
     <declare-styleable name="SearchableSpinner">
@@ -434,17 +435,17 @@
         <attr name="SearchViewBackgroundColor" format="color" />
         <attr name="SearchViewTextColor" format="color" />
         <attr name="DoneSearchTintColor" format="color" />
-        <attr name="AnimDuration" format="integer"/>
-        <attr name="ShowBorders" format="boolean"/>
-        <attr name="BordersSize" format="dimension"/>
-        <attr name="BoarderColor" format="color"/>
-        <attr name="SpinnerExpandHeight" format="dimension"/>
-        <attr name="KeepLastSearch" format="boolean"/>
-        <attr name="RevealEmptyText" format="string"/>
-        <attr name="SearchHintText" format="string"/>
-        <attr name="NoItemsFoundText" format="string"/>
-        <attr name="ItemsDivider" format="reference"/>
-        <attr name="DividerHeight" format="dimension"/>
+        <attr name="AnimDuration" format="integer" />
+        <attr name="ShowBorders" format="boolean" />
+        <attr name="BordersSize" format="dimension" />
+        <attr name="BoarderColor" format="color" />
+        <attr name="SpinnerExpandHeight" format="dimension" />
+        <attr name="KeepLastSearch" format="boolean" />
+        <attr name="RevealEmptyText" format="string" />
+        <attr name="SearchHintText" format="string" />
+        <attr name="NoItemsFoundText" format="string" />
+        <attr name="ItemsDivider" format="reference" />
+        <attr name="DividerHeight" format="dimension" />
     </declare-styleable>
 
     <declare-styleable name="ExpandingCollection">
@@ -465,9 +466,9 @@
     </declare-styleable>
 
     <!--DAlertDialog-->
-    <attr name="alertDialogDark" format="reference"/>
-    <attr name="alertDialogTextColor" format="color|reference"/>
-    <attr name="alertDialogContentTextColor" format="color|reference"/>
+    <attr name="alertDialogDark" format="reference" />
+    <attr name="alertDialogTextColor" format="color|reference" />
+    <attr name="alertDialogContentTextColor" format="color|reference" />
 
     <declare-styleable name="ProgressWheel">
         <attr name="matProg_progressIndeterminate" format="boolean" />
@@ -484,19 +485,19 @@
 
     <declare-styleable name="Rotate3dAnimation">
         <attr name="rollType" format="enum">
-            <enum name="x" value="0"/>
-            <enum name="y" value="1"/>
-            <enum name="z" value="2"/>
+            <enum name="x" value="0" />
+            <enum name="y" value="1" />
+            <enum name="z" value="2" />
         </attr>
         <attr name="fromDeg" format="float" />
         <attr name="toDeg" format="float" />
-        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotX" format="fraction" />
         <attr name="pivotY" format="fraction" />
     </declare-styleable>
 
     <!--SpinWheel View-->
     <declare-styleable name="SpinWheelView">
-        <attr name="swvBackgroundColor" format="color"/>
+        <attr name="swvBackgroundColor" format="color" />
         <attr name="swvCursor" format="reference" />
         <attr name="swvCenterImage" format="reference" />
         <attr name="swvEdgeColor" format="color" />
@@ -509,18 +510,12 @@
 
     <!--InputCode-->
     <declare-styleable name="InputCode">
-        <attr name="underline_color"
-            format="color"/>
-        <attr name="underline_selected_color"
-            format="color"/>
-        <attr name="hint_color"
-            format="color"/>
-        <attr name="text_color"
-            format="color"/>
-        <attr name="hint_text"
-            format="string"/>
-        <attr name="codes"
-            format="integer"/>
+        <attr name="underline_color" format="color" />
+        <attr name="underline_selected_color" format="color" />
+        <attr name="hint_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="hint_text" format="string" />
+        <attr name="codes" format="integer" />
     </declare-styleable>
 
     <!--StickerView-->
@@ -528,52 +523,85 @@
         <attr name="showIcons" format="boolean" />
         <attr name="showBorder" format="boolean" />
         <attr name="bringToFrontCurrentSticker" format="boolean" />
-        <attr name="sv_borderColor" format="color"/>
-        <attr name="borderAlpha"/>
+        <attr name="sv_borderColor" format="color" />
+        <attr name="borderAlpha" />
     </declare-styleable>
 
     <!--Material Searchbar-->
     <declare-styleable name="MSearchBar">
-        <attr name="ms_speechMode" format="boolean"/>
-        <attr name="ms_maxSuggestionsCount" format="integer"/>
-        <attr name="ms_navIconEnabled" format="boolean"/>
-        <attr name="ms_roundedSearchBarEnabled" format="boolean"/>
-        <attr name="ms_menuDividerEnabled" format="boolean"/>
-        <attr name="ms_dividerColor" format="color"/>
-        <attr name="ms_searchBarColor" format="color"/>
+        <attr name="ms_speechMode" format="boolean" />
+        <attr name="ms_maxSuggestionsCount" format="integer" />
+        <attr name="ms_navIconEnabled" format="boolean" />
+        <attr name="ms_roundedSearchBarEnabled" format="boolean" />
+        <attr name="ms_menuDividerEnabled" format="boolean" />
+        <attr name="ms_dividerColor" format="color" />
+        <attr name="ms_searchBarColor" format="color" />
 
-        //Icons
-        <attr name="ms_menuIconDrawable" format="reference"/>
-        <attr name="ms_searchIconDrawable" format="reference"/>
-        <attr name="ms_speechIconDrawable" format="reference"/>
-        <attr name="ms_backIconDrawable" format="reference"/>
-        <attr name="ms_clearIconDrawable" format="reference"/>
-        <attr name="ms_navIconTint" format="color"/>
-        <attr name="ms_menuIconTint" format="color"/>
-        <attr name="ms_searchIconTint" format="color"/>
-        <attr name="ms_backIconTint" format="color"/>
-        <attr name="ms_clearIconTint" format="color"/>
-        <attr name="ms_navIconUseTint" format="boolean"/>
-        <attr name="ms_menuIconUseTint" format="boolean"/>
-        <attr name="ms_searchIconUseTint" format="boolean"/>
-        <attr name="ms_backIconUseTint" format="boolean"/>
-        <attr name="ms_clearIconUseTint" format="boolean"/>
-        <attr name="ms_borderlessRippleEnabled" format="boolean"/>
+        <!--//Icons-->
+        <attr name="ms_menuIconDrawable" format="reference" />
+        <attr name="ms_searchIconDrawable" format="reference" />
+        <attr name="ms_speechIconDrawable" format="reference" />
+        <attr name="ms_backIconDrawable" format="reference" />
+        <attr name="ms_clearIconDrawable" format="reference" />
+        <attr name="ms_navIconTint" format="color" />
+        <attr name="ms_menuIconTint" format="color" />
+        <attr name="ms_searchIconTint" format="color" />
+        <attr name="ms_backIconTint" format="color" />
+        <attr name="ms_clearIconTint" format="color" />
+        <attr name="ms_navIconUseTint" format="boolean" />
+        <attr name="ms_menuIconUseTint" format="boolean" />
+        <attr name="ms_searchIconUseTint" format="boolean" />
+        <attr name="ms_backIconUseTint" format="boolean" />
+        <attr name="ms_clearIconUseTint" format="boolean" />
+        <attr name="ms_borderlessRippleEnabled" format="boolean" />
 
-        //Text
-        <attr name="ms_hint" format="string"/>
-        <attr name="ms_placeholder" format="string"/>
-        <attr name="ms_textColor" format="color"/>
-        <attr name="ms_hintColor" format="color"/>
-        <attr name="ms_placeholderColor" format="color"/>
-        <attr name="ms_textCursorTint" format="color"/>
-        <attr name="ms_leftTextSelectorDrawable" format="reference"/>
-        <attr name="ms_middleTextSelectorDrawable" format="reference"/>
-        <attr name="ms_rightTextSelectorDrawable" format="reference"/>
-        <attr name="ms_leftTextSelectorTint" format="color"/>
-        <attr name="ms_middleTextSelectorTint" format="color"/>
-        <attr name="ms_rightTextSelectorTint" format="color"/>
-        <attr name="ms_handlesTintEnabled" format="boolean"/>
-        <attr name="ms_highlightedTextColor" format="color"/>
+        <!--//Text-->
+        <attr name="ms_hint" format="string" />
+        <attr name="ms_placeholder" format="string" />
+        <attr name="ms_textColor" format="color" />
+        <attr name="ms_hintColor" format="color" />
+        <attr name="ms_placeholderColor" format="color" />
+        <attr name="ms_textCursorTint" format="color" />
+        <attr name="ms_leftTextSelectorDrawable" format="reference" />
+        <attr name="ms_middleTextSelectorDrawable" format="reference" />
+        <attr name="ms_rightTextSelectorDrawable" format="reference" />
+        <attr name="ms_leftTextSelectorTint" format="color" />
+        <attr name="ms_middleTextSelectorTint" format="color" />
+        <attr name="ms_rightTextSelectorTint" format="color" />
+        <attr name="ms_handlesTintEnabled" format="boolean" />
+        <attr name="ms_highlightedTextColor" format="color" />
     </declare-styleable>
+
+    <!--RangeSeekBar-->
+    <declare-styleable name="RangeSeekBar">
+        <attr name="max" format="float" />
+        <attr name="min" format="float" />
+        <attr name="reserve" format="float" />
+        <attr name="cells" format="integer" />
+        <attr name="hideProgressHint" format="boolean" />
+        <attr name="lineColorSelected" format="color" />
+        <attr name="lineColorEdge" format="color" />
+        <attr name="thumbPrimaryColor" format="color" />
+        <attr name="thumbSecondaryColor" format="color" />
+        <attr name="markTextArray" format="reference" />
+        <attr name="seekBarResId" format="reference" />
+        <!-- must use 9 path ！！！-->
+        <attr name="progressHintResId" format="reference" />
+        <attr name="textPadding" format="dimension" />
+        <attr name="textSize"/>
+        <attr name="hintBGHeight" format="dimension" />
+        <attr name="hintBGWith" format="dimension" />
+        <attr name="hintBGPadding" format="dimension" />
+        <attr name="seekBarHeight" format="dimension" />
+        <attr name="thumbSize" format="dimension" />
+        <attr name="cellMode" format="enum">
+            <enum name="number" value="0" />
+            <enum name="other" value="1" />
+        </attr>
+        <attr name="seekBarMode" format="enum">
+            <enum name="single" value="1" />
+            <enum name="range" value="2" />
+        </attr>
+    </declare-styleable>
+
 </resources>

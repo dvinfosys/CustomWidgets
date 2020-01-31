@@ -125,9 +125,9 @@ public class ToggleButton extends ToggleableView {
                 labelOff = tarr.getString(R.styleable.ToggleButton_tb_textOff);
             } else if (attr == R.styleable.ToggleButton_tb_textOn) {
                 labelOn = tarr.getString(R.styleable.ToggleButton_tb_textOn);
-            } else if (attr == R.styleable.ToggleButton_android_textSize) {
+            } else if (attr == R.styleable.ToggleButton_textSize) {
                 int defaultTextSize = (int) (12f * getResources().getDisplayMetrics().scaledDensity);
-                textSize = tarr.getDimensionPixelSize(R.styleable.ToggleButton_android_textSize, defaultTextSize);
+                textSize = tarr.getDimensionPixelSize(R.styleable.ToggleButton_textSize, defaultTextSize);
             } else if (attr == R.styleable.ToggleButton_android_enabled) {
                 enabled = tarr.getBoolean(R.styleable.ToggleButton_android_enabled, false);
             }

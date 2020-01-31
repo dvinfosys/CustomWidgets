@@ -90,5 +90,7 @@
     <string name="menu_sticker">StickerView</string>
     <string name="font_name">Smoothy.otf</string>
     <string name="menu_msearch">MSeachbar</string>
+    <string name="menu_d_toast">DToast</string>
+    <string name="menu_range_seekbar">Range Seekbar</string>
 
 </resources>

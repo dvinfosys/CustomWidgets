@@ -19,6 +19,7 @@ import com.dvinfosys.WidgetsExample.Fragments.CheckBoxFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ColorPickerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.CountdownViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.DAlertFragment;
+import com.dvinfosys.WidgetsExample.Fragments.DToastFragment;
 import com.dvinfosys.WidgetsExample.Fragments.EditTextFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ExpandingCollectionFragment;
 import com.dvinfosys.WidgetsExample.Fragments.FoldingCellFragment;
@@ -29,6 +30,7 @@ import com.dvinfosys.WidgetsExample.Fragments.NumberCounterFragment;
 import com.dvinfosys.WidgetsExample.Fragments.PaperOnboardingFragment;
 import com.dvinfosys.WidgetsExample.Fragments.ProgressViewFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RadioButtonFragment;
+import com.dvinfosys.WidgetsExample.Fragments.RangeSeekbarFragment;
 import com.dvinfosys.WidgetsExample.Fragments.RecyclerResizeFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SearchableSpinnerFragment;
 import com.dvinfosys.WidgetsExample.Fragments.SeekbarFragment;
@@ -147,6 +149,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             fragment = new StickerViewFragment();
         }else if (id==R.id.nav_msearchbar){
             fragment=new MSearchbarFragment();
+        }else if (id==R.id.nav_d_toast){
+            fragment=new DToastFragment();
+        }else if (id==R.id.nav_range_seekbar){
+            fragment=new RangeSeekbarFragment();
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

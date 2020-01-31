@@ -105,5 +105,12 @@
         <item android:id="@+id/nav_msearchbar"
             android:title="@string/menu_msearch"/>
 
+        <item
+            android:id="@+id/nav_d_toast"
+            android:icon="@drawable/ic_toastview"
+            android:title="@string/menu_d_toast" />
+        <item
+            android:id="@+id/nav_range_seekbar"
+            android:title="@string/menu_range_seekbar" />
     </group>
 </menu>

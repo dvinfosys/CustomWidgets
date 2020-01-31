@@ -44,4 +44,5 @@
     <color name="picker_list_text">#232323</color>
     <color name="ds_list_selector_bg">#49067397</color>
     <color name="ds_picker_box_bg">#67f45959</color>
+    <color name="colorSeekBarDefault">#c3c3c3</color>
 </resources>
