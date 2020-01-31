@@ -8,6 +8,17 @@
     android:showDividers="middle"
     tools:context=".Fragments.ColorPickerFragment">
 
+    <com.dvinfosys.widgets.Button.CustomButton
+        android:id="@+id/btn_pic_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Pick Color"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:textColor="@color/defaultTextColor" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"

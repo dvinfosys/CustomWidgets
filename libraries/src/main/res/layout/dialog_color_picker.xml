@@ -60,14 +60,14 @@
                 android:orientation="horizontal"
                 tools:ignore="RtlHardcoded">
 
-                <com.dvinfosys.widgets.TextView.NormalTextView
+                <com.dvinfosys.widgets.TextView.CustomTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="#"
                     android:typeface="monospace"
                     tools:ignore="HardcodedText" />
 
-                <com.dvinfosys.widgets.EditText.NormalEditText
+                <com.dvinfosys.widgets.EditText.CustomEditText
                     android:id="@+id/cpv_hex"
                     android:layout_width="110dp"
                     android:layout_height="wrap_content"

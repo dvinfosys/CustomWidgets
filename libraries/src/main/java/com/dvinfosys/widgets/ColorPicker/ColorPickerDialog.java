@@ -28,7 +28,6 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -36,6 +35,7 @@ import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.dvinfosys.widgets.EditText.CustomEditText;
 import com.dvinfosys.widgets.R;
 
 import java.util.Arrays;
@@ -102,7 +102,7 @@ public class ColorPickerDialog extends DialogFragment implements ColorPickerView
     // -- CUSTOM ---------------------------
     ColorPickerView colorPicker;
     ColorPanelView newColorPanel;
-    EditText hexEditText;
+    CustomEditText hexEditText;
     private final OnTouchListener onPickerTouchListener = new OnTouchListener() {
         @Override
         public boolean onTouch(View v, MotionEvent event) {
